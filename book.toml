@@ -1,0 +1,6 @@
+[book]
+authors = ["Tom Steavenson"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Not A V**** Cookbook"
