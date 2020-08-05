@@ -1,0 +1,2 @@
+language: bash
+script: if grep -ir vegan src/; then exit 1; fi
