@@ -42,6 +42,11 @@ A staple.
 
 ## Silken Tofu
 
+"Tofu is horrible".  I'm with you on that for plain old regular tofu you get.
+Regular tofu is like boiled chicken.  It needs the flavour adding to it.
+
+TODO
+
 ## Smoked Garlic
 
 I don't know how I've gone through life, not discovering this was a thing until
@@ -67,6 +72,9 @@ everything I guess.
 
 ## Frozen Ginger
 
+I never get through a whole ginger root before it starts to go mouldy. Once
+the root has stopped being nice and fresh: cut it into cubes and freeze it.
+
 ## Soy Sauce on Pizza
 
 Wat? I shit you not.  This takes pizza into the next dimension.  Don't believe
@@ -81,6 +89,20 @@ Once you've dripped Tabasco down the back of a sausage roll you'll never look
 back.
 
 ## Oyster Mushrooms
+
+There's as many mushrooms in the world as there are people... or something like
+that.  Anyway, of all the mushrooms you can find, oyster mushrooms are among
+the best.  They've got a real tough texture and a strong flavour.
+
+In general I'd say wherever you might use regular old closed cup button
+mushrooms, try using oyster mushrooms instead.
+
+A great way to eat them is to batter them with panko breadcrumbs and cook them
+in the oven, then have a hoisin sauce or soy sauce to dip them in.
+
+More generally, you can get packs of "wild mushrooms" with all sorts of exotic
+mushrooms in.  Substituting regular old mushrooms for these fancy once can
+bring a whole new world of flavour to your dishes.
 
 ## Freekeh
 
