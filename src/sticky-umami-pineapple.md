@@ -23,13 +23,14 @@ Fry your protein in an oil of your choosing (I tend to go with dandelion oil,
 but I appreciate that's a bit niche) so it's cooked and starting to crisp.
 
 Next add in the sauce and the pineapple cubes.  For the sauce we combine:
-balsalmic vinegar, soy sauce, English mustard (the bright yellow one) and maple
+balsamic vinegar, soy sauce, English mustard (the bright yellow one) and maple
 syrup.  A good dollop of mustard with a table spoon, then an equivalent amount
-of both soy sauce and balsalmic vinegar.  The trick is to be relatively liberal
-with the maple syrup as you need enough of it to reduce around the chuncks and
-go sticky.  You can proportionally increase all the ingredients of the sauce to
-make a more intense flavour, but make sure to keep that proportion of maple
-syrup high.
+of both soy sauce and balsamic vinegar.  The trick is to be relatively liberal
+with the maple syrup as you need enough of it to reduce around the chunks and
+go sticky.  As a rough guide, three times the amount of each other ingredient
+is about right. You can proportionally increase all the ingredients of the
+sauce to make a more intense flavour, but make sure to keep that proportion of
+maple syrup high.
 
 Once this is all simmering away in the pan, turn up the heat and reduce the
 sauce into a sticky coating for your chunks.
@@ -47,7 +48,7 @@ be bothered to peal them, add that flavour with less of a mellowing effect.
 
 ## Flourishes
 
-Given the strenght of the core of this dish, there's a lot of scope for some
+Given the strength of the core of this dish, there's a lot of scope for some
 fairly consequence free experimenting with added extras to add some new
 dimensions. If you're making this for the first time, I'd say don't worry about
 any of these.
@@ -63,7 +64,7 @@ If five BIG flavours aren't enough for you, you can add one more and cook the
 rice in coconut milk.
 
 Be aware this is a big sweet hit being added to the meal and you may want to
-turn up the balsalmic vinegar and turn down the maple syrup and perhaps swap it
+turn up the balsamic vinegar and turn down the maple syrup and perhaps swap it
 for a more toned down agave syrup.
 
 Something nice and bitter to drink like a gin and tonic can help wash this
@@ -81,9 +82,9 @@ the after taste.
 - Fry your protein,
 - Thrown in pineapple cubes & the sauce:
   + 3 parts maple syrup,
-  + 1 part balsalmic vinegar,
+  + 1 part balsamic vinegar,
   + 1 part soy sauce,
-  + 1 part (a dollop) english mustard.
+  + 1 part (a dollop) English mustard.
 - Reduce to preference,
 - Serve on rice.
 
