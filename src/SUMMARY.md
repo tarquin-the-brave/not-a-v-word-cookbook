@@ -23,4 +23,3 @@
 
 - [Fantastic Ingredients](./fantastic-ingredients.md)
 
-
