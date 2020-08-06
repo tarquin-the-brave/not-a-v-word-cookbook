@@ -44,13 +44,29 @@ A staple.
 
 "Tofu is horrible".  I'm with you on that for plain old regular tofu you get.
 Regular tofu is like boiled chicken.  It needs the flavour adding to it.
+Which, to be fair, if you consider the effort that goes into seasoning meat, if
+the same level of devotion went into seasoning tofu it would probably be
+alright. There are some really great tofus you can get where the seasoning has
+already been done.  There's this extra firm smoked tofu I get that's perfect in
+a breakfast bap.  I fry slices of it up with some mushrooms them pop them in a
+toasted pitta with sriracha.
 
-TODO
+Anyway, silken tofu.  It's a completely different beast than regular tofu.  It
+disintegrates in your fingers and has a real creamy and smooth texture.  It's
+great for thickening up sauces and curries, and adds a great texture.  I once
+made these deep fried dumplings filled with silken tofu, leek and spices.  They
+were great, but trying to deep fry something in a pan on your hob can get
+pretty hairy. I heated the oil up too hot and when I put the first dumpling it
+it was like dropping potassium in water!
 
 ## Smoked Garlic
 
 I don't know how I've gone through life, not discovering this was a thing until
-quite recently.
+quite recently.  It's like the two best flavours rolled into one.  Highly
+recommend.
+
+The smoking process leaves them a bit squidgy compared with a regular garlic
+clove, so don't think it's gone off or anything.
 
 ## Truffle Oil
 
@@ -72,8 +88,8 @@ everything I guess.
 
 ## Frozen Ginger
 
-I never get through a whole ginger root before it starts to go mouldy. Once
-the root has stopped being nice and fresh: cut it into cubes and freeze it.
+I never get through a whole ginger root before it starts to go mouldy. Once the
+root has stopped being nice and fresh: cut it into cubes and freeze it.
 
 ## Soy Sauce on Pizza
 
