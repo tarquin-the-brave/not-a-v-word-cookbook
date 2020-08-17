@@ -7,7 +7,7 @@ Literally get a stick of celery, and put a knob of peanut butter on it.
 Great for a mid-night or mid-afternoon snack to stave off hunger, or as nibbles
 to serve with drinks.
 
-Do make sure the peanut butter is palm oil free!
+Make sure the peanut butter is palm oil free!
 
 ## TL;DR
 

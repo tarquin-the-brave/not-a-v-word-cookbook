@@ -31,7 +31,8 @@ Potato! Yes potato on pizza is a Swedish thing apparently, and with these pitta
 pizzas, thin slices of new potatoes works incredibly.
 
 Caramelized onion is another winner.  It does mean you have to make some
-caramelized onions though, which elevates the faff to results ratio somewhat.
+caramelized onions though, which elevates the faff to results ratio somewhat
+as caramelizing onions takes foreeeeeeeeeeeever...
 
 So really you can put whatever toppings on you like, it's your pitta.  The only
 thing I'd say is "less is more" when it comes to toppings.  What I've done in
