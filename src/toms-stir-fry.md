@@ -37,7 +37,7 @@ Season with soy sauce to taste.
 
 ## Flourishes
 
-### Peanut Curry
+### Peanut Curry Soup
 
 Taking this to the next level and letting ti become a more filling meal, it can
 morph into a glorious peanut curry.
@@ -51,8 +51,6 @@ leaving the stir fried veg in the pan, add:
 Stir it up and let it simmer for a bit until the water and peanut butter have
 mixed into a sauce and reduced to the thickness you want.  I'd personally throw
 the seeds in as well.
-
-Serve on rice noodles.
 
 ## TL;DR
 
@@ -68,8 +66,7 @@ Serve on rice noodles.
   - salad topping seeds,
   - soy sauce to taste.
 
-Extend into a peanut curry with:
+Extend into a peanut curry soup with:
   + big dollop of peanut butter,
   + chilli flakes,
-  + water,
-  + Rice or noodles to serve.
+  + water.
