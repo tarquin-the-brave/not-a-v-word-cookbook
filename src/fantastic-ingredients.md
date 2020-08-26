@@ -40,6 +40,8 @@ adds a freshness and helps meld the other flavours into each other, taking away
 the sharp edges. I've now always got some celery knocking around in my fridge.
 A staple.
 
+TODO: Test tip about limp celery in water.
+
 ## Silken Tofu
 
 "Tofu is horrible".  I'm with you on that for plain old regular tofu you get.
@@ -85,6 +87,16 @@ I don't really know what the flavour of lemongrass is.  But I do know when I
 add it to things, it makes them taste great.  I wish I could be more precise
 about what it's good for, but I don't really know.  Try putting it on
 everything I guess.
+
+## Carrot Tops
+
+These get cut off the carrots that get sold to you in the supermarkets.  But
+IRL, carrots come with these big green things popping out the top of them...
+And they're edible and they're delicious.
+
+I've come across them recently by getting carrots via a local growers' veg
+delivery service.  They're great in salads, as a garnish, or anywhere else that
+you might put fresh herbs.
 
 ## Frozen Ginger
 
