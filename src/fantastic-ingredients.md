@@ -40,8 +40,6 @@ adds a freshness and helps meld the other flavours into each other, taking away
 the sharp edges. I've now always got some celery knocking around in my fridge.
 A staple.
 
-TODO: Test tip about limp celery in water.
-
 ## Silken Tofu
 
 "Tofu is horrible".  I'm with you on that for plain old regular tofu you get.
@@ -97,6 +95,9 @@ And they're edible and they're delicious.
 I've come across them recently by getting carrots via a local growers' veg
 delivery service.  They're great in salads, as a garnish, or anywhere else that
 you might put fresh herbs.
+
+You can use them as a base for homemade pesto, blending them up with other
+fresh herbs, some nuts, salt, and lots of olive oil.
 
 ## Frozen Ginger
 

@@ -10,15 +10,16 @@ full mains with the protein of your choice substituted in.
 
 # My Cooking Philosophy
 
-My approach to cooking has always been focussed around simplicity and
+My approach to cooking has always been focussed around simplicity which permits
 imprecision.  I've never been that into preparing big set pieces with thousands
 of ingredients or anything that requires measuring or a precise process.
-Needless to say I avoid baking like the plague.
+Needless to say I avoid baking at all costs (and I don't really like sweet
+things.  I'll take a 2nd main over a pudding any day).
 
 While this approach was likely born out of laziness rather than an appreciation
 of the subtlety and simplicity of individual flavours, I'd like to think that's
 where I've ended up. I now find myself stripping away ingredients from a dish
-to find and appreciate the core flavours on their own.  Restaurant food,
+to find and appreciate the core flavours on their own.  Restaurant food
 especially, is made in a way to convince you it was worth the money you paid
 for it, so it has all the extra flourishes thrown in the hope that someone
 doesn't think "that's easy, I could do that!".  So while driven somewhat by the
