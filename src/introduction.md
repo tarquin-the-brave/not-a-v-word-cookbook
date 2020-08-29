@@ -36,7 +36,7 @@ this case the tomatoes being really good tomatoes, makes all the difference.
 The base too.  A really great sourdough pizza base and I'd be happy with
 nothing on it, save a drizzle of olive oil.  These days, if I go to a pub or
 restaurant and I reckon they know what they're doing, I'll order the simplest
-pizza they do. Take pasta arribata or pasta pomodoro.  They're both just pasta
+pizza they do. Take pasta arrabiata or pasta pomodoro.  They're both just pasta
 with tomato sauce and chilli or basil. In a good Italian restaurant it's the
 best thing on the menu.  That being said, in a mediocre Italian restaurant it's
 just pasta with a tin of tomatoes slopped over it, so you've gotta try to take
@@ -61,5 +61,7 @@ a meal.
 
 So in this book I'll aim to call out what the core of the recipe is, then add
 suggestions of flourishes, while staying away from being too precise about
-process or proportions, unless it really matters.  I'll finish each recipe with
-a TL;DR to serve as a quick reference while cooking.
+process or proportions, unless it really matters.  There'll be some recipes
+that I haven't really dissected into "a core" and "flourishes".  For these I'll
+just say "here's what you do". I'll finish each recipe with a TL;DR to serve as
+a quick reference while cooking.

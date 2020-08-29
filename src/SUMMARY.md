@@ -10,7 +10,7 @@
   + [Courgetti-Mole](./courgette-avo.md)
   + [Tom's Stir Fry](./toms-stir-fry.md)
   + [Pitta Pizzas](./pitta-pizza.md)
-  + [Mushroom & Orange Tartare](./mushroom-orange.md)
+  + [Portobello Mushroom & Orange](./mushroom-orange.md)
   + [Miso Aubergine](./miso-aubergine.md)
   + [Bean Pie](./bean-pie.md)
 
