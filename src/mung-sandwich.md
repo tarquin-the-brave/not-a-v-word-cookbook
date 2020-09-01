@@ -9,7 +9,7 @@ pot of lentils and mung beans on the boil, then got distracted.  I was adding
 little dampening rings to my mechanical keyboard as it was pretty klackerty.
 The involved pulling off every key cap and pushing a silicone ring into the
 inside of it. Then I got chatting to a mate on the phone.  Then about 40
-minutes later, I suddenly remembered. "Ah! my lentils!" I exclaimed and rushed
+minutes later, I suddenly remembered. "Ah! My lentils!" I exclaimed and rushed
 into the kitchen to find the lentils had all swollen and started to
 disintegrate, and the much beans had basically exploded.
 

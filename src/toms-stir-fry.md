@@ -2,7 +2,7 @@
 
 This has been one of my longest standing meals I've made myself, and always
 been a great one for impressing guests, and making it look like it took way
-more effort than it did. The difference this brings to most stir frys this is
+more effort than it did. The difference this brings to most stir-frys this is
 more about what's not in it.  It doesn't include some special sauce out of a
 packet or painstakingly constructed from scratch, you don't need it.  It
 doesn't include noodles, you don't need them.  Noodles can turn what should be
