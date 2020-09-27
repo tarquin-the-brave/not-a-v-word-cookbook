@@ -8,27 +8,3 @@ combinations on the way.  This book will look to share some of those novel
 combinations to incorporate into your cooking either as sides, starters, or
 full mains with the protein of your choice substituted in.
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
----
-
-<div align="center">©2020 Tom Steavenson. All Rights Reserved.</div>
-

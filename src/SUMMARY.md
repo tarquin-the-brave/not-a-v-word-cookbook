@@ -28,3 +28,7 @@
 - [Fantastic Ingredients](./fantastic-ingredients.md)
 
 - [Acknowledgements](./acknowlegements.md)
+
+- [Contributing](./contributions.md)
+
+- [COPYRIGHT](./copyright.md)
