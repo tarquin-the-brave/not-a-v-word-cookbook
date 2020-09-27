@@ -62,7 +62,7 @@ things in like sugar snap peas, shredded carrot, and the like.
 
 You'll notice the total elapsed time for this dish is quite long, even though
 the actually preparation time is not so much.  I tend to prepare this over a
-day: baking the watermelon ion the morning, mixing the marinade at lunch,
+day: baking the watermelon in the morning, mixing the marinade at lunch,
 marinading over the afternoon, and flash frying and eating for dinner.
 
 ## Flourishes

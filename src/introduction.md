@@ -65,3 +65,8 @@ process or proportions, unless it really matters.  There'll be some recipes
 that I haven't really dissected into "a core" and "flourishes".  For these I'll
 just say "here's what you do". I'll finish each recipe with a TL;DR to serve as
 a quick reference while cooking.
+
+---
+
+<div align="center">©2020 Tom Steavenson. All Rights Reserved.</div>
+
