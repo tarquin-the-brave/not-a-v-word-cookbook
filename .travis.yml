@@ -16,3 +16,11 @@ script:
   - if grep -ir vegan src/; then exit 1; fi
   - mdbook build && mdbook test
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: book
+  keep-history: false
+  on:
+    branch: master
