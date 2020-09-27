@@ -2,6 +2,10 @@
 
 [Introduction](./introduction.md)
 
+[Preface](./preface.md)
+
+[This book](./this-book.md)
+
 - [Some Food](./some-food.md)
   + [Sticky Umami Protein & Pineapple](./sticky-umami-pineapple.md)
   + [Watermelon Steaks](./watermelon-steaks.md)
