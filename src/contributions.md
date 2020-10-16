@@ -1,8 +1,7 @@
 # Contributions
 
-This book is in a very early stage and at present has been written solely by
-me.  In time I'd like this to become more of a collaborative effort and would
-be take contributions from wherever.
+Thus far this book has only be written by me, but I'm happy to take
+contributions.
 
 Purely because I haven't got round to looking into this properly yet, the
 [copyright statement][crs] has "All Rights Reserved".  I expect I'll select one
@@ -17,10 +16,24 @@ Please do get in contact by [raising an issue][rai] if you like to contribute.
 [rai]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook/issues
 [gh]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook
 
+# Photography
+
+You'll notice this book has no photos in it.  That's not a design choice, it's
+just that every time I try to take a photo of food it looks like a turd on a
+plate.
+
+If you're good at taking photos of food, and have taken some pictures of
+recipes you've created from this book, please do get in touch, as I'd love this
+book to include photos!
+
 # Contributing Guidance
 
 I'd like any contribution to this book to be in keeping with the mission of the
 book and have some continuity of style.
+
+If this style doesn't float your boat, I'd be happy to link to something
+you post online written in your own style.  Let me know and I'll add an
+"Other Such Works" chapter.
 
 ## Mission
 

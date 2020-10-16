@@ -4,7 +4,7 @@
 
 [Preface](./preface.md)
 
-[This book](./this-book.md)
+[This Book](./this-book.md)
 
 - [Some Food](./some-food.md)
   + [Sticky Umami Protein & Pineapple](./sticky-umami-pineapple.md)
@@ -28,6 +28,10 @@
 - [Fantastic Ingredients](./fantastic-ingredients.md)
 
 [Acknowledgements](./acknowlegements.md)
+
+[Your Recipes](./your-recipes.md)
+
+[Do This Yourself](./do-this-yourself.md)
 
 [Contributing](./contributions.md)
 
