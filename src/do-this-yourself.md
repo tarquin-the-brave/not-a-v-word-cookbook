@@ -49,7 +49,7 @@ Find the option in your Travis account web page to "Add a repository", then the
 next time you "push" your files to your Github repository, a few minutes later,
 you'll be able to see your cookbook online at:
 
-```
+```text
 your-github-name.github.io/your-cookbook-name/
 ```
 
@@ -81,7 +81,48 @@ pick one from the hundreds already available.
 [mytravis]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.travis.yml
 [mygitignore]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.gitignore
 
+## A Actual Real Physical Book
 
+Before publishing this book online, I made a physical copy of this book by hand
+as a present for a couple of friends who got married.  Here's roughly what I
+did.
+
+I used [Pandoc][pandoc], a tool for converting documents between formats, to
+convert these markdown files into a single `odt` format file that can be read
+by [Libre Office][lo] (the free version of Microsoft office).  I don't know if
+Microsoft Word can read `odt` format.  If not Pandoc can always convert to
+`docx` format instead.
+
+Once open in Libre Office I selected all the text, picked a font, size, and
+line formatting and set that for the whole of the document.
+
+I then went through and formatted the section headings and made sure each new
+recipe started on a new page. The book was ready to print.
+
+I found two great tutorials by this Youtuber called "Sea Lemon" for how to bind
+a book by hand online:
+
+[https://www.youtube.com/watch?v=9O4kFTOEh6k]
+
+[https://www.youtube.com/watch?v=Av\_rU-yOPd4]
+
+Sea Lemon has loads of tutorials on book binding and crafts.  Check out their
+other videos for alternative approaches.
+
+I then had to work out how to print the right pages on the right sides of the
+right pieces of paper to create the "signatures" of pages that get sticked
+together.  I did this by folding some normal printer paper, arranging them into
+signatures, and writing the page numbers on.
+
+I also found that the print we have at home wasn't printing "two pages per
+side" centrally on the page, leaving a large blank space to the right. failing
+to see how to amend this, I resorted to measuring the discrepancy and trimming
+the pages down with a ruler and a scalpel (a guillotine would have been better
+for this, I just didn't have one).
+
+All credit to Sea Lemon for helping me to produce the physical book!
+
+[lo]: https://www.libreoffice.org/
 [pandoc]: https://pandoc.org/
 
 [^cl]: "command line", a.k.a: "terminal", "command prompt", is the little box
