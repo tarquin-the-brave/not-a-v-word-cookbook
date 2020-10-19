@@ -14,11 +14,36 @@ that.
 
 Everything I've used is totally free to use.
 
-[`mdbook`][mddoc] is the main technology I've used here. It's a command
-line[^cl] tool that takes markdown[^md] documents and generates a book that you
-can see in your web browser. [Here's the download page][mdbin] to install it
-for the type of computer you have. Check out [the documentation][mdbook] and
-have a play around with it.
+### Command Line
+
+**Before you start**: Make sure you are comfortable running a program from
+your computer's "command line".
+
+"Command line": a.k.a: "terminal", "command prompt", is the little box that
+lets you type in commands to a computer.  On Windows, I think it's called
+"command", or "command prompt".  If you're not familiar with it, you may want
+to do a bit of googling for how the terminal works on your computer.  and
+practice running programs and moving files, etc.
+
+There are also online tutorials that you can find to help get the basics.
+
+### Mdbook and Markdown
+
+[`mdbook`][mddoc] is the main technology I've used here. It's a command line
+tool that takes "markdown" documents and generates a book that you can see in
+your web browser. [Here's the download page][mdbin] to install it for the type
+of computer you have. Check out [the documentation][mddoc] and have a play
+around with it.
+
+[Markdown][markdown] is a lightweight syntax that deals with all the formating
+of a document, so you don't have to.  Don't worry, you're not learning a
+programming language here.  There's very little to it, I promise.
+
+Once you've installed `mdbook` and know how to run it, you can write up a few
+pages of your book and see it taking shape in your web browser with `mdbook
+watch -o`.
+
+### Github and Travis
 
 Once you've got a few pages, setup a [Github][github] account.  Github will
 store the files you create your book from and, when you're ready will host the
@@ -54,7 +79,7 @@ your-github-name.github.io/your-cookbook-name/
 ```
 
 (where `your-github-name` & `your-cookbook-name` are replaced with their actual
-names).
+names)
 
 Hopefully this is enough information to get you started.  The documentation of
 these tools is all quite thorough, and their all used by enough people that you
@@ -81,7 +106,7 @@ pick one from the hundreds already available.
 [mytravis]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.travis.yml
 [mygitignore]: https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.gitignore
 
-## A Actual Real Physical Book
+## An Actual Real Physical Book
 
 Before publishing this book online, I made a physical copy of this book by hand
 as a present for a couple of friends who got married.  Here's roughly what I
@@ -125,11 +150,3 @@ All credit to Sea Lemon for helping me to produce the physical book!
 [lo]: https://www.libreoffice.org/
 [pandoc]: https://pandoc.org/
 
-[^cl]: "command line", a.k.a: "terminal", "command prompt", is the little box
-  that lets you type in commands to a computer.  On Windows, I think it's
-  called "command", or "command prompt".  If you're not familiar with it, you
-  may want to do a bit of googling for how the terminal works on your computer.
-
-[^md]: [Markdown][markdown] is a lightweight syntax that deals with all the
-  formating of a document, so you don't have to.  Don't worry, you're not
-  learning a programming language here.  There's very little to it, I promise.
