@@ -17,6 +17,7 @@
   + [Portobello Mushroom & Orange](./mushroom-orange.md)
   + [Miso Aubergine](./miso-aubergine.md)
   + [Bean Pie](./bean-pie.md)
+  + [Kale in Peanut Sauce](./kale-peanut-sauce.md)
 
 - [Other Recommendations](./other-recommendations.md)
   + [Coconut Greens](./coconut-greens.md)
