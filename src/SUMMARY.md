@@ -18,6 +18,7 @@
   + [Miso Aubergine](./miso-aubergine.md)
   + [Bean Pie](./bean-pie.md)
   + [Kale in Peanut Sauce](./kale-peanut-sauce.md)
+  + [Fava Bean Arrabiata](./fava-arrabiata.md)
 
 - [Other Recommendations](./other-recommendations.md)
   + [Coconut Greens](./coconut-greens.md)
@@ -25,6 +26,7 @@
   + [Raw Food Dinners](./raw-food-dinner.md)
   + [Put Fruit In Curries](./fruit-in-curry.md)
   + [Celery & Peanut Butter](./celery-peanut.md)
+  + [World's Easiest Salad Dressing](./easy-salad-dressing.md)
 
 - [Fantastic Ingredients](./fantastic-ingredients.md)
 
