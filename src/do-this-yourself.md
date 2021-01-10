@@ -127,9 +127,8 @@ recipe started on a new page. The book was ready to print.
 I found two great tutorials by this Youtuber called "Sea Lemon" for how to bind
 a book by hand online:
 
-[https://www.youtube.com/watch?v=9O4kFTOEh6k]
-
-[https://www.youtube.com/watch?v=Av\_rU-yOPd4]
+- [DIY Kettle Stitch Bookbinding Tutorial](https://www.youtube.com/watch?v=9O4kFTOEh6k)
+- [DIY Hardcover Book](https://www.youtube.com/watch?v=Av\_rU-yOPd4)
 
 Sea Lemon has loads of tutorials on book binding and crafts.  Check out their
 other videos for alternative approaches.
