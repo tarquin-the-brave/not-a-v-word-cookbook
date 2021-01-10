@@ -38,8 +38,8 @@ To the sauce you can add a protein of your choice.  I put in some dried soy
 pieces myself.  They come out as these little balls that are much tougher than
 tofu, so have a decent bite to them.  They're also ridiculously cheap.
 
-With such a simple sauce, the rest comes down to what herbs you picked to add
-in.  You can't go wrong with an "Italian Herb Mix", or "Herb de Provence".  I
+With such a simple sauce, the rest comes down to what herbs you pick to add in.
+You can't go wrong with an "Italian Herb Mix", or "Herb de Provence", but I
 prefer to pick just one or two herbs and have them stand out.  You can always
 look at the ingredients of a herb mix and pick one to try on its own.
 
