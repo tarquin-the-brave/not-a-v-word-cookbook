@@ -44,7 +44,7 @@ it.  If it is still a bit stiff, bake it some more.
 Transfer the watermelon to a bowl or container lined in greaseproof paper.
 Mark where you want to cut your steaks by making incisions roughly 1/3 the way
 down as if you were slicing your steak.  With a spoon drip the marinade down
-the groves, then once they're full: pour the rest of the marinade over the
+the grooves, then once they're full: pour the rest of the marinade over the
 watermelon and wrap up in the greaseproof paper.  Place the watermelon in the
 fridge to marinade.
 

@@ -4,7 +4,7 @@ Forget all that rubbish in the intro about appreciating the subtlety of
 individual flavours by reducing the noise around them!  This unapologetically
 bombastic big hitter, doesn't just pack a punch, it comes in like a wrecking
 ball packing five.  Five huge flavours, in proportions that would overwhelm any
-other dish, combine into guaranteed party pleaser.  What's more, it's so easy!
+other dish, combine into guaranteed party pleaser.
 
 ## The Core
 
