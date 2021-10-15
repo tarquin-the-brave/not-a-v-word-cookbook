@@ -1,0 +1,1483 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Not A V**** Cookbook</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="preface.html">Preface</a></li><li class="chapter-item expanded affix "><a href="this-book.html">This Book</a></li><li class="chapter-item expanded "><a href="some-food.html"><strong aria-hidden="true">1.</strong> Some Food</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sticky-umami-pineapple.html"><strong aria-hidden="true">1.1.</strong> Sticky Umami Protein &amp; Pineapple</a></li><li class="chapter-item expanded "><a href="watermelon-steaks.html"><strong aria-hidden="true">1.2.</strong> Watermelon Steaks</a></li><li class="chapter-item expanded "><a href="mung-sandwich.html"><strong aria-hidden="true">1.3.</strong> Mung Bean &amp; Lentil Sandwich Filler</a></li><li class="chapter-item expanded "><a href="cauliflower-pasta.html"><strong aria-hidden="true">1.4.</strong> Roasted Cauliflower Pasta</a></li><li class="chapter-item expanded "><a href="courgette-avo.html"><strong aria-hidden="true">1.5.</strong> Courgetti-Mole</a></li><li class="chapter-item expanded "><a href="toms-stir-fry.html"><strong aria-hidden="true">1.6.</strong> Tom's Stir Fry</a></li><li class="chapter-item expanded "><a href="pitta-pizza.html"><strong aria-hidden="true">1.7.</strong> Pitta Pizzas</a></li><li class="chapter-item expanded "><a href="mushroom-orange.html"><strong aria-hidden="true">1.8.</strong> Portobello Mushroom &amp; Orange</a></li><li class="chapter-item expanded "><a href="miso-aubergine.html"><strong aria-hidden="true">1.9.</strong> Miso Aubergine</a></li><li class="chapter-item expanded "><a href="bean-pie.html"><strong aria-hidden="true">1.10.</strong> Bean Pie</a></li><li class="chapter-item expanded "><a href="kale-peanut-sauce.html"><strong aria-hidden="true">1.11.</strong> Kale in Peanut Sauce</a></li><li class="chapter-item expanded "><a href="fava-arrabiata.html"><strong aria-hidden="true">1.12.</strong> Fava Bean Arrabiata</a></li><li class="chapter-item expanded "><a href="bang-cauliflower.html"><strong aria-hidden="true">1.13.</strong> Bang Bang Bang Bang Cauliflower</a></li></ol></li><li class="chapter-item expanded "><a href="other-recommendations.html"><strong aria-hidden="true">2.</strong> Other Recommendations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="coconut-greens.html"><strong aria-hidden="true">2.1.</strong> Coconut Greens</a></li><li class="chapter-item expanded "><a href="quinoa-granola.html"><strong aria-hidden="true">2.2.</strong> Quinoa In Granola</a></li><li class="chapter-item expanded "><a href="raw-food-dinner.html"><strong aria-hidden="true">2.3.</strong> Raw Food Dinners</a></li><li class="chapter-item expanded "><a href="fruit-in-curry.html"><strong aria-hidden="true">2.4.</strong> Put Fruit In Curries</a></li><li class="chapter-item expanded "><a href="celery-peanut.html"><strong aria-hidden="true">2.5.</strong> Celery &amp; Peanut Butter</a></li><li class="chapter-item expanded "><a href="easy-salad-dressing.html"><strong aria-hidden="true">2.6.</strong> World's Easiest Salad Dressing</a></li></ol></li><li class="chapter-item expanded "><a href="fantastic-ingredients.html"><strong aria-hidden="true">3.</strong> Fantastic Ingredients</a></li><li class="chapter-item expanded affix "><a href="acknowlegements.html">Acknowledgements</a></li><li class="chapter-item expanded affix "><a href="your-recipes.html">Your Recipes</a></li><li class="chapter-item expanded affix "><a href="do-this-yourself.html">Do This Yourself</a></li><li class="chapter-item expanded affix "><a href="contributions.html">Contributing</a></li><li class="chapter-item expanded affix "><a href="copyright.html">COPYRIGHT</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Not A V**** Cookbook</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="not-a-v-cookbook"><a class="header" href="#not-a-v-cookbook">Not A V**** Cookbook</a></h1>
+<p>Let me start by saying that I will not be using “the V word” anywhere in this
+book, and it is not a “V word cookbook” but a collection of some cooking
+wisdoms that I’ve gathered over the past few year as part of being “one of
+those”, having to unlearn and relearn a food culture, picking up some novel
+combinations on the way.  This book will look to share some of those novel
+combinations to incorporate into your cooking either as sides, starters, or
+full mains with the protein of your choice substituted in.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="preface"><a class="header" href="#preface">Preface</a></h1>
+<p>My approach to cooking has always been focussed around simplicity which permits
+imprecision.  I've never been that into preparing big set pieces with thousands
+of ingredients or anything that requires measuring or a precise process.
+Needless to say I avoid baking at all costs (and I don't really like sweet
+things.  I'll take a 2nd main over a pudding any day).</p>
+<p>While this approach was likely born out of laziness rather than an appreciation
+of the subtlety and simplicity of individual flavours, I'd like to think that's
+where I've ended up. I now find myself stripping away ingredients from a dish
+to find and appreciate the core flavours on their own.  Restaurant food
+especially, is made in a way to convince you it was worth the money you paid
+for it, so it has all the extra flourishes thrown in the hope that someone
+doesn't think &quot;that's easy, I could do that!&quot;.  So while driven somewhat by the
+ulterior motive of laziness, I have gone through a process of stripping meals
+down to their bare necessities, only chucking flourishes back in when I've got
+the core solid.</p>
+<p>Pizza and pasta are great examples of this core simplicity.  In the past I
+would always get the pizza with the most ingredients on (because &quot;clearly&quot;
+that's the best). But what really makes a pizza great?  It's the tomato sauce
+and the base.  Tomato sauce is so simple: olive oil, tomato, basil.  But having
+a great sauce with those ingredients combined in just the right way, and in
+this case the tomatoes being really good tomatoes, makes all the difference.
+The base too.  A really great sourdough pizza base and I'd be happy with
+nothing on it, save a drizzle of olive oil.  These days, if I go to a pub or
+restaurant and I reckon they know what they're doing, I'll order the simplest
+pizza they do. Take pasta arrabiata or pasta pomodoro.  They're both just pasta
+with tomato sauce and chilli or basil. In a good Italian restaurant it's the
+best thing on the menu.  That being said, in a mediocre Italian restaurant it's
+just pasta with a tin of tomatoes slopped over it, so you've gotta try to take
+the temperature of the place before ordering.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="this-book"><a class="header" href="#this-book">This Book</a></h1>
+<p>I don't like cookbooks.  I tolerate them, but I always find myself scrawling
+some rough notes and working from them.  One of the things they seem to never
+be able to convey is what the core of the recipe is that makes it what it is.
+Following a recipe in a cookbook, it's never clear to me what the stakes are
+for deviating from the precise ingredients and process.  If I realise I forgot
+an ingredient half way through cooking: is the meal ruined? Do I bail out and
+start again?  Do I try to compensate? Or do I do nothing?  Was the ingredient
+just a arbitrary flourish that made no difference to the overall meal
+whatsoever, but included to make you spend hours searching a supermarket for
+cilantro, only to find out it's fucking coriander... and not even important to
+the dish. I then find that I stop following cookbooks' instructions, because I
+grow tired of them and start guessing proportions.  This is normally fine,
+until it comes to things like soy sauce, or ginger, when too much can destroy a
+meal.</p>
+<p>So in this book I'll aim to call out what the core of the recipe is, then add
+suggestions of flourishes, while staying away from being too precise about
+process or proportions, unless it really matters.  There'll be some recipes
+that I haven't really dissected into &quot;a core&quot; and &quot;flourishes&quot;.  For these I'll
+just say &quot;here's what you do&quot;. I'll finish each recipe with a TL;DR to serve as
+a quick reference while cooking.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="some-food"><a class="header" href="#some-food">Some Food</a></h1>
+<p>Enough talk!  Let's dive straight into some dishes!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="sticky-umami-protein--pineapple"><a class="header" href="#sticky-umami-protein--pineapple">Sticky Umami Protein &amp; Pineapple</a></h1>
+<p>Forget all that rubbish in the intro about appreciating the subtlety of
+individual flavours by reducing the noise around them!  This unapologetically
+bombastic big hitter, doesn't just pack a punch, it comes in like a wrecking
+ball packing five.  Five huge flavours, in proportions that would overwhelm any
+other dish, combine into guaranteed party pleaser.  What's more, it's so easy!</p>
+<h2 id="the-core"><a class="header" href="#the-core">The Core</a></h2>
+<p>First: pick your protein and chop it into cubes.  I've found this works well
+with seitan, but I've also done this with microprotein &quot;This Isn't Chicken&quot;
+pieces.  Anything &quot;white&quot; in the meaty sense will do.  Next prepare your
+pineapple into thumbnail sized cubes (any bigger and they don't absorb the
+sauce as well).  I tend to find one round slice of pineapple per person does
+the job.</p>
+<p>Start by putting on some rice to boil as the rest cooks rather quickly. I've
+found plain brown rice to be best as the rest of the dish has enough flavour
+and you find yourself wanting something plain to eat it with.</p>
+<p>Fry your protein in an oil of your choosing (I tend to go with dandelion oil,
+but I appreciate that's a bit niche) so it's cooked and starting to crisp.</p>
+<p>Next add in the sauce and the pineapple cubes.  For the sauce we combine:
+balsamic vinegar, soy sauce, English mustard (the bright yellow one) and maple
+syrup.  A good dollop of mustard with a table spoon, then an equivalent amount
+of both soy sauce and balsamic vinegar.  The trick is to be relatively liberal
+with the maple syrup as you need enough of it to reduce around the chunks and
+go sticky.  As a rough guide, three times the amount of each other ingredient
+is about right. You can proportionally increase all the ingredients of the
+sauce to make a more intense flavour, but make sure to keep that proportion of
+maple syrup high.</p>
+<p>Once this is all simmering away in the pan, turn up the heat and reduce the
+sauce into a sticky coating for your chunks.</p>
+<p>Once that's ready serve on top of the rice.</p>
+<h2 id="to-onion-or-not-to-onion---that-is-the-question"><a class="header" href="#to-onion-or-not-to-onion---that-is-the-question">To Onion Or Not To Onion - That Is The Question</a></h2>
+<p>I've tried alternating onions in and out of this dish. Frying onions with the
+protein has the effect of mellowing the flavours slightly.  And I mean
+&quot;slightly&quot;, the dish doesn't suddenly become meditatively subtle.  I'd say try
+onions on a later run of this dish, after having experienced it without them.
+My current preference is without, but it's worth a try.  Shallots, if you can
+be bothered to peal them, add that flavour with less of a mellowing effect.</p>
+<h2 id="flourishes"><a class="header" href="#flourishes">Flourishes</a></h2>
+<p>Given the strength of the core of this dish, there's a lot of scope for some
+fairly consequence free experimenting with added extras to add some new
+dimensions. If you're making this for the first time, I'd say don't worry about
+any of these.</p>
+<h3 id="rosemary"><a class="header" href="#rosemary">Rosemary</a></h3>
+<p>A healthy sprinkle of rosemary while adding the sauce can help to support the
+mustard by providing another avenue for the flavour to go up your nose.</p>
+<h3 id="coconut-rice"><a class="header" href="#coconut-rice">Coconut Rice</a></h3>
+<p>If five BIG flavours aren't enough for you, you can add one more and cook the
+rice in coconut milk.</p>
+<p>Be aware this is a big sweet hit being added to the meal and you may want to
+turn up the balsamic vinegar and turn down the maple syrup and perhaps swap it
+for a more toned down agave syrup.</p>
+<p>Something nice and bitter to drink like a gin and tonic can help wash this
+sweeter dish down.</p>
+<h3 id="chilli-flakes"><a class="header" href="#chilli-flakes">Chilli Flakes</a></h3>
+<p>This isn't supposed to be a spicy dish, and I'm not sure that adding a load of
+spice would really complement the rest of the flavours.  But from time to time
+I put a pinch or light sprinkle of chilli flakes in to give some variation in
+the after taste.</p>
+<h2 id="tldr"><a class="header" href="#tldr">TL;DR</a></h2>
+<ul>
+<li>Fry your protein,</li>
+<li>Thrown in pineapple cubes &amp; the sauce:
+<ul>
+<li>3 parts maple syrup,</li>
+<li>1 part balsamic vinegar,</li>
+<li>1 part soy sauce,</li>
+<li>1 part (a dollop) English mustard.</li>
+</ul>
+</li>
+<li>Reduce to preference,</li>
+<li>Serve on rice.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="watermelon-steaks"><a class="header" href="#watermelon-steaks">Watermelon Steaks</a></h1>
+<p>Say what? This isn't a play on words, I really mean it.  Big, succulent, juicy,
+dripping, rare steaks made from watermelon.</p>
+<p>Once you've had one of these, you'll never look at watermelon the same again.
+You'll see all the people sitting eating slices of raw watermelon and cry
+&quot;barbarians!&quot;.</p>
+<p>For me this filled the hole in my life that steak left. I don't crave steak
+anymore.</p>
+<p>These bring a world of flavour and are a fantastic party piece that'll blow
+your guests' minds.  When the watermelon reduces it adopts a rare meaty
+texture.</p>
+<h2 id="the-core-1"><a class="header" href="#the-core-1">The Core</a></h2>
+<p>Get a watermelon.  One of those miniature watermelons will do to serve 4
+people. You can also use some portion of a large watermelon.  You can buy them
+in halves or quarters.</p>
+<p>Cut the skin off the watermelon. It's OK to leave some white bits on the
+outside as this is a pretty good analogue of the rind.</p>
+<p>Massage, with clean hands, some salt and soy sauce into the watermelon.  It's
+OK to be fairly liberal with this as it will help the watermelon reduce.</p>
+<p>Loosely wrap up the watermelon in foil and place on a baking tray in the oven.</p>
+<p>Bake for an hour, then turn the watermelon over in the foil and bake for
+another hour.  You'll notice the bottom half is gone wobbly and reduced down
+more than the top as it's been sitting in the juice.  That's why you need to
+turn it.</p>
+<p>While baking prepare the marinade: A dollop of tahini; a good amount of soy
+sauce; a squeeze of sriracha; a few glugs of olive oil; a splash of some form
+of vinegar; some chilli flakes; and a clove of garlic, a knob of ginger, and
+some spring onions, all chopped finely.</p>
+<p>After baking the watermelon should have a wobbly, raw meat, texture and feel to
+it.  If it is still a bit stiff, bake it some more.</p>
+<p>Transfer the watermelon to a bowl or container lined in greaseproof paper.
+Mark where you want to cut your steaks by making incisions roughly 1/3 the way
+down as if you were slicing your steak.  With a spoon drip the marinade down
+the groves, then once they're full: pour the rest of the marinade over the
+watermelon and wrap up in the greaseproof paper.  Place the watermelon in the
+fridge to marinade.</p>
+<p>I'd say marinade it for at least 2 hours in the fridge. Longer is better.</p>
+<p>When you're ready to eat the steaks: finish the incisions to cut the watermelon
+into steaks.  Flash fry for just a minute or so on each side on a high high
+heat. While frying you can drizzle on some of the excess marinade.</p>
+<p>You can serve these with whatever you normally eat steak with. Personally I
+think these work best served with a fresh crisp salad with lots of crunchy
+things in like sugar snap peas, shredded carrot, and the like.</p>
+<h2 id="timings"><a class="header" href="#timings">Timings</a></h2>
+<p>You'll notice the total elapsed time for this dish is quite long, even though
+the actually preparation time is not so much.  I tend to prepare this over a
+day: baking the watermelon in the morning, mixing the marinade at lunch,
+marinading over the afternoon, and flash frying and eating for dinner.</p>
+<h2 id="flourishes-1"><a class="header" href="#flourishes-1">Flourishes</a></h2>
+<h3 id="save-off-the-baking-juice"><a class="header" href="#save-off-the-baking-juice">Save off the Baking Juice</a></h3>
+<p>If the juice that comes off the watermelon while baking chars at all, and has
+little black bits floating in it, then don't worry about it and throw it away.
+But if covering the watermelon has done its job and the juice is clear, save it
+off in a jar.</p>
+<p>It's a mix of the salt, soy sauce, and the sugars that came out of the
+watermelon as it has reduced. It's great as a sweet and salty dressing for a
+salad or use elsewhere in cooking.</p>
+<h3 id="serve-the-leftover-marinade-as-a-sauce"><a class="header" href="#serve-the-leftover-marinade-as-a-sauce">Serve the Leftover Marinade as a Sauce</a></h3>
+<p>This depends a bit on how much you like spice.  The marinade on its own is very
+spicy.  If you're up for it, you can drizzle the leftover marinade over the
+steaks as a sauce.</p>
+<p>If not you can save it to use elsewhere in cooking or throw it away.</p>
+<h2 id="a-sneaky-shortcut"><a class="header" href="#a-sneaky-shortcut">A Sneaky Shortcut</a></h2>
+<p>Say one day we're not locked in our houses working from home all day, and you
+want to prepare this meal in the span of an evening.</p>
+<p>You can cut the baking time down to ~30-40 mins by slicing the raw watermelon
+into steaks, opting for thinner slices, and not covering them in the oven.
+Watch you don't burn them!</p>
+<p>With smaller slices you can cut down the marinading time too as there will be a
+greater surface area to volume ratio. As with any marinading, the longer the
+better, but patience is a virtue and we're not always virtuous.  Given say ~20
+mins to marinade, you can get the total elapsed cooking time down to ~1 hour.</p>
+<h2 id="tldr-1"><a class="header" href="#tldr-1">TL;DR</a></h2>
+<ul>
+<li>Cut off skin of watermelon,</li>
+<li>Rub in salt and soy sauce,</li>
+<li>Bake in tin foil for several hours,</li>
+<li>Score groves where you want the steaks to go,</li>
+<li>Marinade in fridge in:
+<ul>
+<li>Tahini,</li>
+<li>Soy sauce,</li>
+<li>Sriracha,</li>
+<li>Chilli flakes,</li>
+<li>Garlic,</li>
+<li>Ginger,</li>
+<li>Spring onion,</li>
+<li>Some form of vinegar,</li>
+<li>Olive oil,</li>
+</ul>
+</li>
+<li>Flash fry,</li>
+<li>Serve with a crisp salad, or whatever.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="mung-bean--lentil-sandwich-filler"><a class="header" href="#mung-bean--lentil-sandwich-filler">Mung Bean &amp; Lentil Sandwich Filler</a></h1>
+<p>This one I discovered by total accident!</p>
+<p>One day I was intending on making a <a href="mung-sandwich.html#eat-as-a-salad-instead">lentil salad</a>.  I
+found some &quot;mung beans&quot; in the cupboard next to the lentils.  I had no idea
+what they were but thought they were lentil-like so threw them in too.  I set a
+pot of lentils and mung beans on the boil, then got distracted.  I was adding
+little dampening rings to my mechanical keyboard as it was pretty klackerty.
+The involved pulling off every key cap and pushing a silicone ring into the
+inside of it. Then I got chatting to a mate on the phone.  Then about 40
+minutes later, I suddenly remembered. &quot;Ah! My lentils!&quot; I exclaimed and rushed
+into the kitchen to find the lentils had all swollen and started to
+disintegrate, and the much beans had basically exploded.</p>
+<p>It looked like the meal was a bit ruined but I noticed the exploded mung beans
+had a dry fibre-y texture, almost a bit like tinned tuna... This gave me an
+idea!  I added the rest of the salad ingredients, some olive oil, capers (for a
+fishy flavour), and a squeeze of lemon, then blended the mixture and spread it
+on toast.</p>
+<p>This now stands as my go-to hearty sandwich filler.</p>
+<h2 id="the-core-2"><a class="header" href="#the-core-2">The Core</a></h2>
+<p>The key to this is to overcook the lentils and mung beans so they're soft and
+add enough olive oil so the mixture doesn't taste too dry.</p>
+<p>While the lentils are cooking, chop up some celery and cherry tomatoes (or any
+tomatoes you want really), and have some capers ready (you normally have to
+fish them out of a jar with a fork, so good to do ahead of time).</p>
+<p>Once you've overcooked the lentils and mung beans, 30-40 minutes on the boil
+should do the trick, drain and put back in the pan.</p>
+<p>Throw in the celery, tomatoes, and capers.  Pour in a good couple of glugs of
+olive oil and a squeeze of lemon juice.</p>
+<p>Mix the ingredients together and heat on a high heat for a minute or less to
+give it a shock of heat to get the flavours mixing.</p>
+<p>Blend the mixture.</p>
+<p>Serve hot on toast or put it in the fridge for tomorrow's sandwiches. Slices
+of cucumber in the sandwich perfectly complement this filling.</p>
+<p>The only proportion advice I'd give, is don't over do it on the lemon.  I did
+that once and it was a bit too tangy.</p>
+<p><em>Mung beans are also known as adzuki/azuki/aduki beans the difference being
+that adzuki beans are &quot;red mung beans&quot;, it would appear.</em></p>
+<h2 id="flourishes-2"><a class="header" href="#flourishes-2">Flourishes</a></h2>
+<h3 id="change-of-base"><a class="header" href="#change-of-base">Change of Base</a></h3>
+<p>While the base of this is mung bean and lentils, you can try basing this on
+more or other legumes such as chickpeas, soybeans, etc.</p>
+<p>When I tried chickpeas, the texture of the mixture went a bit potato-y, and I
+didn't like it as much.</p>
+<h3 id="spices"><a class="header" href="#spices">Spices</a></h3>
+<p>I've not experimented too much with putting much spices in this.  When I've had
+fresh parsley to hand, that's gone in.</p>
+<p>I'd guess the green herby herbs would do well in this.  I'm unsure what the
+effect of adding chilli to it would be.  Try it.</p>
+<h2 id="eat-as-a-salad-instead"><a class="header" href="#eat-as-a-salad-instead">Eat as a Salad Instead</a></h2>
+<p>You can, of course, not overcook the lentils and mung beans, use less olive
+oil, not blend the mixture and enjoy as a lentil salad or a bed to serve your
+protein on.</p>
+<h2 id="tldr-2"><a class="header" href="#tldr-2">TL;DR</a></h2>
+<ul>
+<li>Overcook some lentils and mung beans,</li>
+<li>Throw in: olive oil, a squeeze of lemon, capers, celery, cherry tomatoes,</li>
+<li>Heat on a quick high heat stirring for ~30 secs to set the flavours off
+melding,</li>
+<li>Blend the mixture,</li>
+<li>Serve on toast or refrigerate for tomorrow's sandwiches with some slices of
+cucumber.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="roasted-cauliflower-pasta"><a class="header" href="#roasted-cauliflower-pasta">Roasted Cauliflower Pasta</a></h1>
+<p>Ever find pasta a bit too heavy. I do.  But also really love pasta.  I do.
+Here's a way you can combine it with something lighter and embark on an odyssey
+flavour.</p>
+<p>What I'm talking about when I say &quot;odyssey of flavour&quot; is unlike when you have
+flavours meld, by slow cooking or giving a flash of heat, every mouthful is a
+different flavour.  It's got sweet, sour, salty, herby, all hitting you one by
+one.</p>
+<p>If you're bored of pasta, this will reignite it.</p>
+<h2 id="heres-what-to-do"><a class="header" href="#heres-what-to-do">Here's What To Do</a></h2>
+<p>Put the oven on. Get a head of cauliflower and chop up into florets.</p>
+<p>Make a dressing from: the juice of a lemon, some olive oil, syrup (maple or
+agave), a knob of ginger (chopped or grated), a couple of garlic cloves, a
+tablespoon of cumin, a teaspoon of cinnamon, and few cracks of salt.  Give that
+a good mix.</p>
+<p>Toss the cauliflower florets with small amount of the dressing (2-3
+tablespoons) to coat them, spread them out on a baking tray, and pop them in
+the oven.  It should take 20 or so minutes for the florets to roast golden, but
+keep an eye on them as you don't want to over do it.</p>
+<p>Stick some pasta on the boil.  As you've got the cauliflower joining the fray,
+put on half as much pasta as you would for a &quot;pasta and sauce&quot; dish.</p>
+<p>Chop up some olives and dried apricots. A couple of handfuls of each should do
+the trick.  I normally just keep chopping 'til I get bored and then call it.</p>
+<p>Once the pasta &amp; cauliflower is ready drain the pasta and save 100ml or so of
+the pasta water.  Put the pasta, cauliflower, olives, and apricots in a cold
+pot, serving dish, or mixing bowl.  Mix the pasta water you saved off with the
+dressing then pour over the rest of the ingredients in the pot.</p>
+<h2 id="the-most-important-thing"><a class="header" href="#the-most-important-thing">The Most Important Thing</a></h2>
+<p>The key thing in this dis is to not let the flavours meld. This is why it's a
+good idea to mix it all together in a cold container and not in the still warm
+pan the pasta was cooked in.</p>
+<p>I cooked this recipe once, mixing all the ingredients in the pan, and even gave
+it a quick flash on a high heat to help the flavours mix.  It wasn't nice.
+Because the main ingredients, the cauliflower florets, the pasta pieces, the
+dried apricots, the olives, are all whole and solid things, you'll only have
+one or two of them on each forkful. It's a really enjoyable dish when each
+forkful takes you to a different place.</p>
+<h2 id="tldr-3"><a class="header" href="#tldr-3">TL;DR</a></h2>
+<ul>
+<li>Chop cauliflower head into florets,</li>
+<li>Make dressing from:
+<ul>
+<li>Olive oil,</li>
+<li>One squoze lemon,</li>
+<li>Agave syrup,</li>
+<li>A knob of ginger,</li>
+<li>Two garlic cloves,</li>
+<li>One tablespoon of cumin,</li>
+<li>One teaspoon of cinnamon, and</li>
+<li>A few cracks of salt.</li>
+</ul>
+</li>
+<li>Toss cauliflower with a small amount of the dressing to coat.</li>
+<li>Roast cauliflower in oven.</li>
+<li>Boil pasta (1/2 normal amount per person).</li>
+<li>Chop up olives and dried apricot.</li>
+<li>Save off 100ml of the pasta water &amp; mix in with dressing.</li>
+<li>In a cold container, mix everything together.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="courgetti-mole"><a class="header" href="#courgetti-mole">Courgetti-Mole</a></h1>
+<p>Another super simple, can't get this wrong, 5 minute, fresh dish that can be a
+luscious lunch, or a base for your protein that blows boring old spaghetti or
+noodles out of the water.</p>
+<h2 id="the-core-3"><a class="header" href="#the-core-3">The Core</a></h2>
+<p>The core to this meal is the sauce that you coat the courgetti with. Smash up
+some avocado in a bowl with some dollops of pesto and finely chopped garlic
+cloves.</p>
+<p>How many cloves depend on how much you like garlic.  I'd personally go for a
+clove per person, but you many want to turn that down to half a clove per
+person on the first attempt.</p>
+<p>Spiralize a courgette or two into courgetti.  Flash fry in pan on hight heat
+for no more than a couple of minutes, you don't want the courgetti to go soggy!</p>
+<p>Mix the courgetti in with the mixture and crack over some pepper to serve.</p>
+<h2 id="flourishes-3"><a class="header" href="#flourishes-3">Flourishes</a></h2>
+<h3 id="change-out-the-courgetti"><a class="header" href="#change-out-the-courgetti">Change Out the Courgetti</a></h3>
+<p>If you want to turn this fresh and uplifting ensemble into a hearty hangover
+cure, or a carbo-loading king, swap out the courgetti for some fat udon
+noodles.</p>
+<h3 id="garnishes"><a class="header" href="#garnishes">Garnishes</a></h3>
+<p>Try throwing in some seeds and fresh herbs.  Or a teaspoon of spirulina if
+you're feeling brave.</p>
+<h2 id="have-it-raw"><a class="header" href="#have-it-raw">Have it Raw</a></h2>
+<p>I've said flash fry the courgetti.  You can not cook the courgetti at all and
+enjoy an even crisper cold variation.</p>
+<h2 id="tldr-4"><a class="header" href="#tldr-4">TL;DR</a></h2>
+<ul>
+<li>Smash up some avo in a bowl with pesto and garlic,</li>
+<li>Spiralize some courgetti and flash fry,</li>
+<li>Mix in sauce,</li>
+<li>Serve.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="toms-stir-fry"><a class="header" href="#toms-stir-fry">Tom's Stir Fry</a></h1>
+<p>This has been one of my longest standing meals I've made myself, and always
+been a great one for impressing guests, and making it look like it took way
+more effort than it did. The difference this brings to most stir-frys this is
+more about what's not in it.  It doesn't include some special sauce out of a
+packet or painstakingly constructed from scratch, you don't need it.  It
+doesn't include noodles, you don't need them.  Noodles can turn what should be
+a light and crisp affair into some tummy swelling stodge.</p>
+<p>Being one of my oldest recipes it's very much in keeping with my <a href="./introduction.html#my-cooking-philosophy">core cooking
+philosophy</a> of always aiming to strip
+meals down to the their core bits, enjoying the simplicity of that, then
+throwing things back in when you get bored.</p>
+<h2 id="the-core-4"><a class="header" href="#the-core-4">The Core</a></h2>
+<p>Put simply this is some stir fried veg served on some salad leaves, with
+beetroot, a smattering of seeds, and only soy sauce in the way of sauce.</p>
+<p>Those pre-made packs of stir fry veg are excellent for this.  They give you a
+great variety and mean you won't have too much of anything going to waste.
+It's worth getting the posh ones like Tesco finest or Sainsbury's taste the
+difference as they've got all sorts of fancy veggies in,</p>
+<p>Using that pre assembled pack as a base, throw in some pak choi, and any other
+veggies that aren't already in the mix that you want.</p>
+<p>Really quickly flash fry so the veggies are still al dente.</p>
+<p>Put into bowls lined with raw lettuce and spinach.</p>
+<p>Add slices of ready-to-eat beetroot and sprinkle over seeds (any seeds, you can
+get packs of &quot;salad topping seeds&quot; which are great for this).</p>
+<p>Season with soy sauce to taste.</p>
+<h2 id="flourishes-4"><a class="header" href="#flourishes-4">Flourishes</a></h2>
+<h3 id="peanut-curry-soup"><a class="header" href="#peanut-curry-soup">Peanut Curry Soup</a></h3>
+<p>Taking this to the next level and letting ti become a more filling meal, it can
+morph into a glorious peanut curry.</p>
+<p>Skipping the &quot;salad bits&quot; of the above (the lettuce, spinach, beetroot) and
+leaving the stir fried veg in the pan, add:</p>
+<ul>
+<li>a good few dollops of peanut butter,</li>
+<li>some water, and</li>
+<li>chilli flakes or fresh chillies.</li>
+</ul>
+<p>Stir it up and let it simmer for a bit until the water and peanut butter have
+mixed into a sauce and reduced to the thickness you want.  I'd personally throw
+the seeds in as well.</p>
+<h2 id="tldr-5"><a class="header" href="#tldr-5">TL;DR</a></h2>
+<ul>
+<li>Pre-made pack of stir fry,</li>
+<li>plus:
+<ul>
+<li>pak choi,</li>
+<li>other veggies to fry.</li>
+</ul>
+</li>
+<li>Quickly stir fry.</li>
+<li>Serve with:
+<ul>
+<li>ready to eat beetroot,</li>
+<li>lettuce,</li>
+<li>raw spinach,</li>
+<li>salad topping seeds,</li>
+<li>soy sauce to taste.</li>
+</ul>
+</li>
+</ul>
+<p>Extend into a peanut curry soup with:</p>
+<ul>
+<li>big dollop of peanut butter,</li>
+<li>chilli flakes,</li>
+<li>water.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pitta-pizzas"><a class="header" href="#pitta-pizzas">Pitta Pizzas</a></h1>
+<p>The easiest, quickest crowd pleaser around.  Seven minutes to perfection.
+Starter, side, nibbles, or quick lunchtime snack.  Minimal effort, let the
+ingredients do the talking and you can take all the credit.</p>
+<p>For me this dish is a great opportunity to exercise simplicity, opting for
+fewer ingredients to let each pitta be focussed on just a couple of flavours.
+You can also squeeze on every topping under the sun and do all the flourishes
+in one go.  Up to you.</p>
+<h2 id="the-core-5"><a class="header" href="#the-core-5">The Core</a></h2>
+<p>Get some pitta breads, smear on some tomato puree, add any ingredients you
+want, drizzle over some olive oil, bake in the oven for 5 minutes.</p>
+<p>For any toppings you do put on: it's best to make sure they're thin slices, so
+they cook a bit in the short time.</p>
+<p>The only other note I'd make is that the tomato puree will make or break this
+dish.  Splash out the extra 50p and get the posh one.</p>
+<h2 id="toppings"><a class="header" href="#toppings">Toppings</a></h2>
+<p>There's some obvious toppings that you'd expect: olives, mushrooms, artichoke
+hearts, onion.</p>
+<p>There's also some you might not expect...</p>
+<p>Potato! Yes potato on pizza is a Swedish thing apparently, and with these pitta
+pizzas, thin slices of new potatoes works incredibly.</p>
+<p>Caramelized onion is another winner.  It does mean you have to make some
+caramelized onions though, which elevates the faff to results ratio somewhat
+as caramelizing onions takes foreeeeeeeeeeeever...</p>
+<p>So really you can put whatever toppings on you like, it's your pitta.  The only
+thing I'd say is &quot;less is more&quot; when it comes to toppings.  What I've done in
+the past is when preparing a platter of 4 or so pitta pizzas and chopping them
+up to share or have as nibbles, I've put one or two toppings on each. That cuts
+out a lot of the noise and lets you appreciate the beautiful simplicity of the
+individual flavours.</p>
+<h2 id="flourishes-5"><a class="header" href="#flourishes-5">Flourishes</a></h2>
+<p>The &quot;flourishes&quot; of this dish come in what you do with the sauce.</p>
+<p>I've said to smear tomato puree on the pitta base.  Try mixing in some chilli
+puree, garlic puree, BBQ sauce, or pesto (but not all at once).  Little
+separate dollops of pesto also works well.</p>
+<p>You can also try sprinkling herbs across before adding the toppings. &quot;generic
+Italian herb mix&quot; is a good start, but I'd recommend finding one herb that you
+really want the flavour of in the pizza and sticking to that.</p>
+<h2 id="tldr-6"><a class="header" href="#tldr-6">TL;DR</a></h2>
+<ul>
+<li>Pitta bread,</li>
+<li>Smear on some tomato puree,</li>
+<li>Add toppings, less is more,</li>
+<li>Drizzle over olive oil,</li>
+<li>In oven for 5 mins.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="portobello-mushrooms--orange"><a class="header" href="#portobello-mushrooms--orange">Portobello Mushrooms &amp; Orange</a></h1>
+<p>I'll be honest: this one's a bit odd, and I don't really know how much I like
+this dish.  But it's novel, and well worth a try.</p>
+<p>It's a flavour combination that nobody asked for, but kind of works, and will
+surprise you. You can try this as a starter first time around, then build a
+main around it if you like it.</p>
+<h2 id="heres-what-to-do-1"><a class="header" href="#heres-what-to-do-1">Here's What To Do</a></h2>
+<p>Get 4 portobello mushrooms and a big orange.</p>
+<p>Brush/rub some olive oil onto the inside of the mushrooms and place on a baking
+tray.</p>
+<p>Peel the orange and break into segments trying to remove as much of the white
+stuff as possible and cut the pips out if there are any.</p>
+<p>Make a mixture of chopped olives, a couple of chopped shallots, some capers,
+fresh coriander, a glugs or two of olive oil, and a crack of salt. Put the
+orange segments into the mixture.</p>
+<p>Put the mixture over the mushrooms.</p>
+<p>Grill for 5-10 minutes. Keep an eye on them as you don't want them to burn.</p>
+<h2 id="tldr-7"><a class="header" href="#tldr-7">TL;DR</a></h2>
+<ul>
+<li>Paint inside of portobello mushrooms with olive oil.</li>
+<li>Mix together:
+<ul>
+<li>Olives, shallots, coriander - all chopped,</li>
+<li>Capers,</li>
+<li>Olive oil,</li>
+<li>Orange segments,</li>
+</ul>
+</li>
+<li>Put mixture in mushrooms,</li>
+<li>Grill for 5-10 mins.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="miso-aubergine"><a class="header" href="#miso-aubergine">Miso Aubergine</a></h1>
+<p><em>Or &quot;eggplant&quot; if you're that way inclined.</em></p>
+<p>A great surprise addition to a BBQ. We suffer somewhat from having a set idea
+what BBQ food is, when really you can do anything.  You can pre-prepare this
+one, wrap it in foil, and sneak it onto the BBQ while no-one's watching.  Once
+cooked, you can open up the tin foil give everyone a fork and gather round.
+This will have more flavour than most of what's on the rest of the BBQ
+combined.</p>
+<h2 id="the-core-6"><a class="header" href="#the-core-6">The Core</a></h2>
+<p>Aubergine &amp; miso paste.</p>
+<p>Chop you aubergines in half long ways. Score the flesh on the inside of the
+aubergine with the knife to draw a grid pattern.  I like to make grid squares
+about 2cm x 2cm and cut right down to the inside of the skin so you can scoop
+out cubes one by one when eating. You need a bit of a stead hand to not cut
+through the skin too.</p>
+<p>Using a combination of a spoon and clean fingers: smear miso paste over the
+aubergine, getting as much of it as you can down the cracks in your grid
+pattern.</p>
+<p>Wrap up each aubergine half in foil and cook on the BBQ for 20-30 mins. It's
+hard to say exactly as BBQs vary from those mini disposable ones to gas giants.
+You want to cook them till the aubergine flesh has lost its firmness, and then
+a bit longer to get the miso flavour to fully mix in.</p>
+<h2 id="flourishes-6"><a class="header" href="#flourishes-6">Flourishes</a></h2>
+<h3 id="maple-syrup"><a class="header" href="#maple-syrup">Maple Syrup</a></h3>
+<p>Once you've smeared on the miso paste, spread some maple syrup over the top.
+This will add another flavour dimension to the aubergine and make the flesh go
+all sticky.</p>
+<h3 id="smaller-squares-or-baby-aubergines"><a class="header" href="#smaller-squares-or-baby-aubergines">Smaller Squares or Baby Aubergines</a></h3>
+<p>If you're looking to get more of a sauce to go into more of a food thing, you
+will want to increase the surface area to volume ratio.  You do that by making
+things smaller.  It's why you can drop a squirrel out of a plane.</p>
+<p>With this dish, with the recommended 2cm x 2cm squares, you get a bit of a
+gradient where the centre of the cubes haven't got as much of the miso taste in
+them.  If you want the miso to permeate through more of the aubergine you can
+cut smaller squares, or use baby aubergines to get the size reduction in a 3rd
+dimension.</p>
+<h2 id="serve-as-a-main-instead"><a class="header" href="#serve-as-a-main-instead">Serve as a Main Instead</a></h2>
+<p>Instead of the BBQ, you can cook these in the oven.  A great meal is these
+served on a lentil salad or on greens.  Steamed peas and samphire perhaps.</p>
+<h2 id="tldr-8"><a class="header" href="#tldr-8">TL;DR</a></h2>
+<ul>
+<li>Slice aubergine long ways,</li>
+<li>Score a 2cm x 2cm grid on the inside,</li>
+<li>Rub in miso paste (getting ti down all the cracks),</li>
+<li>Wrap each aubergine half in foil,</li>
+<li>Put on BBQ for 20-30 mins.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="random-bean-pie"><a class="header" href="#random-bean-pie">Random Bean Pie</a></h1>
+<p>A great cupboard clearer.</p>
+<p>We've all done it.  While aimlessly wondering around the super market passed
+the tinned bean isle, seen some exotic sounding bean name that you've never
+heard of and thought, yeah go on.  This tin of beans then sits at the back of
+your kitchen cupboard for years taking up space.  Eventually, having never seen
+a recipe where you can use them, you give up and crack the tin, drain them, and
+plop them on a salad, or serve with you main meal, only to find they're pretty
+bland on their own.</p>
+<p>We know the usual suspect for this: fava beans, black eye beans, boroletti
+beans, butter beans, aduki beans, haricot beans, &quot;mixed&quot; beans, flageolet beans
+(no idea how to pronounce that one), pinto beans, lupin beans, the list goes
+on. I've just been perusing an organic shop website to find those names, I'd
+not be able to name any of them off the top of my head.  It's a long list.
+It's not like &quot;person, woman, man, camera, TV&quot;.</p>
+<h2 id="heres-what-to-do-2"><a class="header" href="#heres-what-to-do-2">Here's What To Do</a></h2>
+<p>Get a pie dish.</p>
+<p>Put on the boil: enough potato, sweet potato, and any other root vegetables
+that you have lying around (carrots make a pretty tasty addition), to provide
+an inch thick mashed top in your dish.  If in doubt, cook more, you can always
+use the excess elsewhere.  I always leave the skins on.  There's so much
+texture and flavour that gets thrown away when you peel veg.</p>
+<p>Meanwhile, stick the oven on and prepare the pie dish. This is where you take
+all those tins of odd beans, drain them, rinse them, and chuck them in the pie
+dish.</p>
+<p>Then throw in a tin of tomatoes, a couple of chopped garlic cloves, and some
+mix of other such &quot;back of the cupboard&quot; sauces you've got lying around: Lea &amp;
+Perrins, a squeeze of HP, maybe a dollop of mustard, go nuts.  Throw in some
+herbs to preference.  A standard blend like &quot;Herb de Provence&quot;, or &quot;Italian
+Herb Mix&quot;, would be a good fit for this dish.  I can never get that excited
+about black pepper, it seems to either go unnoticed, or be too much and destroy
+a dish. But if you like adding pepper, you can crack some of that in too.</p>
+<p>Once Potato and Co. have boiled enough to be mashable: take them out and mash
+them.  I like my mash quite rough and chunky, and for this dish it provides
+quite a nice texture to the pie top.  I quite firmly believe that it is
+essential for all mash to have copious amount of mustard mixed into it. Do with
+that what you will.</p>
+<p>Make sure the pie contents is nicely mixed together then top the pie with about
+a centimetre (or two) of your mash.  I think it's good to have a thin top.  I
+like pies to be mostly filling. You only need enough to cover the filling. You
+can take the opportunity to decorate you pie by taking a fork and drawing a
+pretty pattern, writing a special message, or just drawing a cock.</p>
+<p>Slowly bake the pie on a lower heat for ~45 minutes or so. Everything is
+already cooked, you're just slow cooking it to let the flavours meld.</p>
+<h2 id="tldr-9"><a class="header" href="#tldr-9">TL;DR</a></h2>
+<ul>
+<li>Boil some potato and friends,</li>
+<li>Throw every bean tin you have (drained) into a pie dish,</li>
+<li>Add in:
+<ul>
+<li>Tinned tomato,</li>
+<li>A couple of garlic cloves,</li>
+<li>Sauces such as: Lea &amp; Perrins, HP,</li>
+<li>Generic herbs,</li>
+</ul>
+</li>
+<li>Mash potato and friends roughly (adding mustard),</li>
+<li>Top pie with ~1cm of the mash,</li>
+<li>Slow cook in oven for ~45 mins.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="kale-in-peanut-sauce"><a class="header" href="#kale-in-peanut-sauce">Kale in Peanut Sauce</a></h1>
+<p>Kale is pretty boring, you've got to give it some flavour.  What better to
+flavour it with than a creamy peanut sauce.</p>
+<p>Serve as an epic side, or extend with the flourishes until you have a full
+meal.</p>
+<h2 id="the-core-7"><a class="header" href="#the-core-7">The Core</a></h2>
+<p>Prepare a peanut sauce in a pyrex jar by mixing some dollops of peanut butter
+with some cream (soy, oat, or coconut) and enough hot water for it to mix
+together smoothly.</p>
+<p>Begin to stir fry some thin slices of parsnip (or any other root vegetable like
+potato or sweet potato) and celery in wok.</p>
+<p>Once they're fried a little pile the kale over the top and pour a little bit of
+water over everything so the kale steams over the other vegetables. You can
+also drizzle over some soy sauce.</p>
+<p>Once the kale has shrunk up and taken up a dark green colour throughout, pour
+over the peanut sauce and stir everything together and reduce until the sauce
+is sufficiently thick.</p>
+<h2 id="flourishes-7"><a class="header" href="#flourishes-7">Flourishes</a></h2>
+<h3 id="chilli"><a class="header" href="#chilli">Chilli</a></h3>
+<p>Peanut and spice works rather nice. Try adding in some chilli flakes or fresh
+chilli.</p>
+<h3 id="more-veg"><a class="header" href="#more-veg">More Veg</a></h3>
+<p>I've suggested quickly stir frying thin slices of parsnip and celery to act as
+a simple base for the flavour before adding the kale and sauce. You can keep
+going with the veg at this stage and add all the veg you might add to a stir
+fry: sugar snap peas, cabbage, beansprouts, mushrooms, etc.</p>
+<p>As with everything, I'd say keep it simple, then add things after you've tried
+the minimal version of the dish.</p>
+<h3 id="a-curry"><a class="header" href="#a-curry">A Curry</a></h3>
+<p>Keep adding veg to the initial sir fry stage, and soon this dish will become a
+meal in itself.</p>
+<p>Serve over rice as a curry.</p>
+<h2 id="tldr-10"><a class="header" href="#tldr-10">TL;DR</a></h2>
+<ul>
+<li>stir fry parsnip and celery</li>
+<li>pile kale on top</li>
+<li>pour over water to steam kale</li>
+<li>sprinkle soy sauce</li>
+<li>pour over peanut sauce:
+<ul>
+<li>peanut butter</li>
+<li>soy cream (or other)</li>
+<li>hot water</li>
+</ul>
+</li>
+<li>reduce to thickness</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fava-bean-arrabiata"><a class="header" href="#fava-bean-arrabiata">Fava Bean Arrabiata</a></h1>
+<p>We've all done it: been browsing through the supermarket and spotted some food
+with a strange name and remembered hearing about it being a great food for some
+health benefit, but you can't remember what, so bought a tin or pack, got home
+and had no idea what to do with it, so let it sit at the back of the cupboard
+for the rest of time. One day you spot it, have a go including it in a meal,
+and it's disgusting. When you look up the name, it turns out the fancy name is
+an alternative name for something more recognisable. &quot;Edamame&quot; springs to mind.
+Turns out they're just soy beans.  So: cattle feed.  Excellent.  Still
+delicious but a bit less glamorous with that realisation.</p>
+<p>This was my experience with a pack of &quot;split fava beans&quot;.  When I first
+attempted to cook them they were bland and horrible, it was like trying to eat
+wet sand.  Looking them up, it turns out they're also known as &quot;broad beans&quot;.</p>
+<p>I've recently be having a bit of a kitchen clear out and trying to &quot;eat the
+cupboards&quot;.  This pack of split fava beans had its turn.  With the previous
+attempt of cooking them a not too distant memory, I had a real go at making
+these fava beans taste nice.  I was pretty happy with what came out, and it fit
+this book's mantra of &quot;novel combinations&quot;, so here it is.</p>
+<h2 id="the-core-8"><a class="header" href="#the-core-8">The Core</a></h2>
+<p>Combine the fava beans with pearl barley and simmer in a pan of water with some
+stock mixed in. Between the two of them they absorb a fair amount of water so
+you'll likely need to add more as it cooks. 30-40 minutes should do it.</p>
+<p>Meanwhile, make an arrabiata sauce by frying some onions and garlic until the
+onions are soft, adding in some tinned tomatoes, herbs of your choice, and some
+chilli (fresh, flakes, or chilli sauce - take your pick).</p>
+<p>Drain the barley and fava mix and serve the sauce over the top of them.</p>
+<h2 id="flourishes-8"><a class="header" href="#flourishes-8">Flourishes</a></h2>
+<p>To the sauce you can add a protein of your choice.  I put in some dried soy
+pieces myself.  They come out as these little balls that are much tougher than
+tofu, so have a decent bite to them.  They're also ridiculously cheap.</p>
+<p>With such a simple sauce, the rest comes down to what herbs you pick to add in.
+You can't go wrong with an &quot;Italian Herb Mix&quot;, or &quot;Herb de Provence&quot;, but I
+prefer to pick just one or two herbs and have them stand out.  You can always
+look at the ingredients of a herb mix and pick one to try on its own.</p>
+<h2 id="tldr-11"><a class="header" href="#tldr-11">TL;DR</a></h2>
+<ul>
+<li>Boil fava beans and barley in stock:
+<ul>
+<li>30-40 mins,</li>
+<li>Add water as you go.</li>
+</ul>
+</li>
+<li>For the sauce:
+<ul>
+<li>fry onions and garlic,</li>
+<li>once golden, add:
+<ul>
+<li>tinned tomatoes,</li>
+<li>chilli,</li>
+<li>herb(s),</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Optional: add a protein to the sauce.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="bang-bang-bang-bang-cauliflower"><a class="header" href="#bang-bang-bang-bang-cauliflower">Bang Bang Bang Bang Cauliflower</a></h1>
+<p>You may have had something like this in a restaurant or pub as a starter or
+side.  In fact the number of &quot;Bang&quot;s above is not just a reflection of how
+delicious this is but also to not name this exactly as it is named in a popular
+Japanese restaurant.</p>
+<p>In my opinion, this dish is a shining example of the sort of cooking I like
+best: &quot;make boring veg taste good&quot;, while doing something incredibly simple. In
+fact: the core concept to this dish is so simple, it's actually a bit hard to
+express it in the &quot;Core, then Flourishes&quot; format of this book.  &quot;The Core&quot; will
+go a bit beyond the truly minimal core of this recipe. But here goes...</p>
+<h1 id="the-core-9"><a class="header" href="#the-core-9">The Core</a></h1>
+<p>Essentially what we're doing here is cooking up some cauliflower with some
+chillies and spices in sesame oil. We can also include one or two other
+&quot;complimentary&quot; veggies (e.g: celery, peppers, what ever you have lying around
+in the fridge).</p>
+<p>Chop the cauliflower into florets of a size that you'd be comfortable forking
+into your mouth.  The size of your mouth might be a factor here.  Chop any
+complimentary veggies into much smaller pieces than your cauliflower florets.
+You're going to be going for the florets with your fork and you want some of
+the other bits of veg to come with it.</p>
+<p>Throws these into a mixing bowl, pour in some sesame oil, sprinkle in some
+sesame seeds, and shake in some Chinese five spice.</p>
+<p>You can either chop up some fresh chillies and throw them in or shake over some
+chilli seeds (or even just add in chilli sauce at the end if you don't have
+either of those).  The more chilli the better I'd say.  It's meant to be a
+spicy dish.  But of course, add chilli to taste.</p>
+<p>Get your hands in and toss that mixture all around so the oil, spices, and
+chilli are evenly distributed.</p>
+<p>Throw all this into a pan or wok on a high heat and cook 'til the cauliflower
+is browning slightly.</p>
+<p>It's now ready to eat.  You can serve up as it is with a splash of soy sauce or
+add a sauce into the pan (<a href="bang-cauliflower.html#the-sauce">see below</a>).</p>
+<h1 id="flourishes-9"><a class="header" href="#flourishes-9">Flourishes</a></h1>
+<h2 id="how-i-did-it-last-time"><a class="header" href="#how-i-did-it-last-time">How I Did It Last Time</a></h2>
+<p>The last time I did this I went with mushrooms and celery as the &quot;complimentary
+veg&quot;, used fresh chillies for spice, and added in cherry tomatoes and peanut
+butter at the end to make a sauce.</p>
+<p>I added finely chopped celery to the mixing bowl with the cauliflower florets
+to toss with the celery with the sesame oil, sesame seeds, freshly chopped
+chillies, and Chinese five spice. I tossed the mushrooms in olive oil in a
+separate bowl before adding all of this to the pan for frying.</p>
+<p>Once the cauliflower was cooked I added some chopped cherry tomatoes, a couple
+of spoonfuls of peanut butter, a splash of soy sauce, and poured over a decent
+amount of water from the kettle.</p>
+<p>I mixed it all together and put a lid on the pan to let it all stew for a
+little bit.  I then took the lid off the pan and let the excess water boil off
+'til the sauce had reduced to the thickness I wanted.</p>
+<p>I served it on rice.</p>
+<h2 id="the-sauce"><a class="header" href="#the-sauce">The Sauce</a></h2>
+<p>The simplest possible version of a sauce for this could be to add in some soy
+sauce and water to the pan and let to water boil off.  Perhaps putting in a bit
+of cornflour to thicken it up a bit.</p>
+<p>For a more savoury flavour you could put in some dollops of peanut butter or
+tahini, as I did above.</p>
+<p>You could also go for more of a sticky glaze.  For this you need something
+sugary like: sugar, honey, maple or agave syrup.  Add this in with a reasonable
+amount of water so everything gets spread around evenly.  Boil off the water
+until a sugary coating covers all the bits of veg.</p>
+<h2 id="other-possibilities"><a class="header" href="#other-possibilities">Other Possibilities</a></h2>
+<p>The rest of the possibility space around this dish is in what you include in
+the &quot;complimentary veg&quot;.  Last time I made this I held an onion in my hand for
+a good few seconds before deciding against it.  Partly because the celery was
+already performing the supporting role, but also because I didn't want yet
+anther evening's cooking to start with chopping an onion.</p>
+<p>I suppose you can take a &quot;whatever you've got in the fridge&quot; approach to this.
+That's what I did with the cherry tomatoes and it was a lovely addition
+flavour.</p>
+<h2 id="tldr-12"><a class="header" href="#tldr-12">TL;DR</a></h2>
+<ul>
+<li>Chop cauliflower into [gob-sized] florets.</li>
+<li>Chop any complimentary veg into much smaller pieces.</li>
+<li>Toss them in a mixing bowl with:
+<ul>
+<li>sesame oil,</li>
+<li>chilli (fresh or seeds),</li>
+<li>Chinese five spice,</li>
+<li>and sesame seeds.</li>
+</ul>
+</li>
+<li>Fry on a high heat 'til the cauliflower is cooked (browning a little).</li>
+<li>Add:
+<ul>
+<li>a little soy sauce,</li>
+<li>a dollop of peanut butter (or alternative<sup class="footnote-reference"><a href="#1">1</a></sup>),</li>
+<li>a splash of water,</li>
+</ul>
+</li>
+<li>Simmer to reduce to the thickness you want.</li>
+</ul>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>It's really up to you what you add here, if anything.  See <a href="bang-cauliflower.html#the-sauce">&quot;The
+Sauce&quot;</a> section for some ideas.</p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="other-recommendations"><a class="header" href="#other-recommendations">Other Recommendations</a></h1>
+<p>Not full recipes.  Maybe one day they may grow into that.  But some whole
+hearted recommendations that can make good on food.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="coconut-greens"><a class="header" href="#coconut-greens">Coconut Greens</a></h1>
+<p>As kids we're told to eat our greens. They get boiled to death and slopped on
+your plate.  It's somewhere between a chore and torture.  Later in life some
+fitness freak will tell you you have to steam all your greens.  For the right
+greens in the right dish, this can add a crisp freshness to offset something
+else that's quite intense in terms of saltiness, oiliness, or stodgy. But
+steaming every vegetable can also leave you with tasteless and soulless food.</p>
+<p>Sometimes you want your greens to just taste EPIC on their own accord.  Enter
+coconut.</p>
+<h2 id="the-core-10"><a class="header" href="#the-core-10">The Core</a></h2>
+<p>The core of this is to toss your greens in coconut oil and desiccated coconut
+(coconut dust), then cook as you like.</p>
+<p>Placing on a oven tray lined with tin foil and putting under the grill is how
+I'd cooked them.  You can also bake or fry them.  However you cook them, I'd
+advise not over doing it and keeping the greens with a bit of bite to them.</p>
+<h2 id="which-greens"><a class="header" href="#which-greens">Which Greens?</a></h2>
+<p>I'd say any greens that hold their shape when cooked and have a nice al dente
+bite.  So not leafy greens, or legumes.  Some great examples of greens I've
+cooked like this are:</p>
+<ul>
+<li>Tenderstem Broccoli (top recommendation),</li>
+<li>Okra, and</li>
+<li>Asparagus.</li>
+</ul>
+<h2 id="flourishes-10"><a class="header" href="#flourishes-10">Flourishes?</a></h2>
+<p>I could go into flourishes.  But really you should add whatever you like.  Also
+you'd only be a few flourishes and a bit of chilli away from a simple Thai
+curry.</p>
+<h2 id="tldr-13"><a class="header" href="#tldr-13">TL;DR</a></h2>
+<ul>
+<li>Toss your greens in coconut oil and coconut dust,</li>
+<li>Grill - keep al dente.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quinoa-in-granola"><a class="header" href="#quinoa-in-granola">Quinoa In Granola</a></h1>
+<p>Wat? I agree. It sounds mental. But when the granola is toasting in the oven
+the quinoa pops and gives the granola a real light texture. Normally I find
+granola out of a packet a bit heavy going, I'm not a great morning eater, and
+too sugary!</p>
+<p>Granola out of a packet never has that same toasted flavour, and I've not yet
+seen one where they've put quinoa in it!</p>
+<h2 id="the-core-11"><a class="header" href="#the-core-11">The Core</a></h2>
+<p>The core of this granola is: oats, quinoa, Brazil nuts, and some syrup to bind
+it all together (maple syrup is good).</p>
+<p>The Brazil nuts are a must! When toasted they adopt this incredible flavour,
+and have a really great bite!</p>
+<p>Mix the ingredients in a bowl, lay out on a baking tray, and roast in the oven
+for about 10 minutes.</p>
+<h2 id="flourishes-11"><a class="header" href="#flourishes-11">Flourishes</a></h2>
+<p>While making a granola with just the core ingredients above will be delicious,
+I'd take the opportunity to throw in every nut, and seed, you've got in your
+cupboard.  Here's a few I've mixed in in the past:</p>
+<ul>
+<li>Cashew nuts,</li>
+<li>Pistachio nuts,</li>
+<li>Pine nuts,</li>
+<li>Sunflower seeds,</li>
+<li>Chia seeds - these also pop like the quinoa,</li>
+<li>Pumpkin seeds,</li>
+<li>Agave syrup.</li>
+</ul>
+<p>Any nut you add, add them raw.</p>
+<p>After toasting you can throw in some desiccated coconut (coconut dust).  It's
+nice! But I've stopped adding this as it does dominate the flavour a bit, and
+there's enough coconut in my life as it stands.</p>
+<p>Adding dried fruit? I'm not personally a fan of this.  I don't like the texture
+going from crunchy to squidgy and back to crunchy as I'm eating.  I prefer to
+serve the granola with fresh fruit or a smoothie. But if that's you're thing,
+go for it!</p>
+<h2 id="tldr-14"><a class="header" href="#tldr-14">TL;DR</a></h2>
+<ul>
+<li>Mix oats, quinoa, and Brazil nuts in a bowl,</li>
+<li>Mix in whatever the hell else you want,</li>
+<li>Throw in some maple syrup - the more you put in the more clumpy the granola
+will be,</li>
+<li>Toast in the oven for 10 mins,</li>
+<li>Throw in any extras and store.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="raw-food-dinners"><a class="header" href="#raw-food-dinners">Raw Food Dinners</a></h1>
+<p>What's that?  Well, it's exactly what it says on the tin: chop up a bunch of
+raw vegetables in a load of funky ways, place them all in the middle of the
+table, gather round and tuck in!</p>
+<h2 id="but-why"><a class="header" href="#but-why">But Why?</a></h2>
+<p>It's a good question.  Why does a cookbook have a page dedicated to not cooking
+anything? Why bother cooking when we can just eat raw food? I wonder about that
+sometimes. A couple of years ago I had a phase of doing a raw food dinner once
+in every few weeks.</p>
+<p>The main reason for me was to strip food back to it's raw flavours and textures
+and just appreciate them.</p>
+<p>It's a very refreshing meal, partly due to it being a change from the usual,
+and simply due to the high water content of raw vegetables.</p>
+<p>Most of the things you hear in the way of &quot;nutritional science&quot; tend to come
+from sources that... aren't science. So take this with a pinch of salt, but
+apparently, certain nutrients get denatured when we cook food and we miss out
+on their benefits.  I suppose that conversely there are other nutrients that
+only cooking can &quot;unlock&quot;, such as turning starch into carbohydrates and
+sugars.  Cooking is on aggregate an endothermic reaction, so if you were going
+to cook or not cook all of your food, I'd guess the latter would have the
+higher nutritional value on aggregate. But that's not to say there isn't some
+nutrients that raw veg presents a better source for.  My general take on
+nutrition is &quot;don't worry about it&quot;.  If you get ill and a doctor tells you to
+worry about a specific one, worry about that specific one, otherwise don't
+worry about it.  With one exception: I keep half an eye on my B12, given I only
+eat plants.</p>
+<p><em>I've been careful to use the word &quot;nutrient&quot; as a general term for &quot;something
+your body might need at some point&quot;, rather than go down the path of talking
+about &quot;vitamins and minerals&quot;, whatever they are.</em></p>
+<p>We could go on making vacuous platitudes about nutrition, or we could recognise
+there's some far more valid reasons to crack on with a raw food dinner.  Such
+as:</p>
+<ul>
+<li>Clean out your fridge,</li>
+<li>Realising you were a bit trigger happy when ordering the now apparently
+gargantuan veg delivery that's just been dropped off and won't fit in your
+fridge or cupboards, or even</li>
+<li>Wanting to sympathise with gorillas.  To truly understand our simian cousins
+we must first graze as they do!</li>
+</ul>
+<h2 id="the-core-12"><a class="header" href="#the-core-12">The Core</a></h2>
+<p>For me, the core of this is to get a good variety of veg and try chopping up
+each in different ways to see how that can affect the texture.</p>
+<h2 id="suggestions"><a class="header" href="#suggestions">Suggestions</a></h2>
+<p>A side from all the familiar faces from salads we know: lettuce, tomato, sugar
+snap peas, radishes, avocado, cucumber, celery, there are some others that
+might be more of a novelty to eat raw.</p>
+<h3 id="spiralize-the-phallic-veg"><a class="header" href="#spiralize-the-phallic-veg">Spiralize The Phallic Veg</a></h3>
+<p>You can get a hand held veg spiralized off the internet for around £10, and
+they're effectively a pencil sharpener for vegetables.</p>
+<p>The effect of long spaghetti-fied strips of vegetable is the surface area to
+volume ratio radically increases.  This dramatically changes the relationship
+between texture and flavour and allows other flavours to meld in.</p>
+<p>Carrot is the veg I've found most transformed by being spiralized/shredded.
+Chunks of raw carrot: dull, too much hard word.  Shredded carrot: amazing!</p>
+<h3 id="courgette"><a class="header" href="#courgette">Courgette</a></h3>
+<p>While courgettes are the champion veg for spiralizing I also really like the
+texture of very thin circular slices.</p>
+<h3 id="cabbage"><a class="header" href="#cabbage">Cabbage</a></h3>
+<p>Red cabbage has a bit more flavour.  I generally really hate limp floppy cooked
+cabbage, especially when the flavour has been steamed or boiled out of it.  Raw
+cabbage chopped into thin slices is a totally different thing.  It's crisp and
+sharp and delicious.</p>
+<h3 id="mushrooms"><a class="header" href="#mushrooms">Mushrooms</a></h3>
+<p>I didn't even know you could eat mushrooms raw 'til a couple of years ago. But
+it turns out you can and they've got a completely different texture.</p>
+<h3 id="potato"><a class="header" href="#potato">Potato</a></h3>
+<p>Apparently this isn't very good for you because we can't digest it properly,
+but I absolutely love the taste of raw potatoes.  So maybe just chop up one
+baby potato to taste a few slices.</p>
+<h2 id="cheat-a-bit---flavour-it-up"><a class="header" href="#cheat-a-bit---flavour-it-up">Cheat A Bit - Flavour It Up</a></h2>
+<p>I'll admit, only raw veg for dinner is hard core. When I do this I tend to wash
+it down with a pot of hummus, some olive oil, balsamic vinegar, soy sauce, and
+perhaps some nut butter.</p>
+<p>And of course, wine.</p>
+<h2 id="tldr-15"><a class="header" href="#tldr-15">TL;DR</a></h2>
+<ul>
+<li>Chop up raw veg,</li>
+<li>Eat.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fruit-in-curries"><a class="header" href="#fruit-in-curries">Fruit In Curries</a></h1>
+<p>This was going to be a recipe in itself, but I haven't reliably got it to come
+out good yet.  I don't really know what &quot;the core&quot; of it is. The last two times
+I made it, it came out horrible.  It was vaguely a recipe where you fry up
+chunks of apple, then throw in peanuts, raisins, curry powder and water then
+let simmer for a bit and serve on coconut rice.  The last time I made it, it
+came out <em>way</em> to sweet.  It tasted like a pudding.  And I don't like puddings
+that much. I'd normally rather have second main.  I think the trick is going to
+be picking an apple that's especially tart and not over cooking it.  I'll give
+it another go at some point.</p>
+<p>Although, the times that dish did work: the result was incredible.  And so
+novel.  A fruit curry!  Who'd have thought!?</p>
+<p>I'd say my takeaway from the times it has worked has been:</p>
+<blockquote>
+<p>Don't be afraid to toss whatever fruit you've got that needs
+eating in whatever you're cooking, curries especially.</p>
+</blockquote>
+<p>Then I suppose the takeaway from when it has gone wrong is:</p>
+<blockquote>
+<p>Don't make it the centre of the dish and expect it to not come
+out sweet.</p>
+</blockquote>
+<p>We tend to think of fruit as being reserved for sweet dishes, but actually you
+see them cropping up all over the place (the <a href="./mushroom-orange.html">Mushroom &amp; Orange
+Tartare</a> in this book, for example) in savoury dishes
+too.</p>
+<h2 id="tldr-16"><a class="header" href="#tldr-16">TL;DR</a></h2>
+<ul>
+<li>Put more fruit in more curries.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="celery--peanut-butter"><a class="header" href="#celery--peanut-butter">Celery &amp; Peanut Butter</a></h1>
+<p>I did say not all of these would be full recipes...</p>
+<p>Literally get a stick of celery, and put a knob of peanut butter on it.</p>
+<p>Great for a mid-night or mid-afternoon snack to stave off hunger, or as nibbles
+to serve with drinks.</p>
+<p>Make sure the peanut butter is palm oil free!</p>
+<h2 id="tldr-17"><a class="header" href="#tldr-17">TL;DR</a></h2>
+<ul>
+<li>Put peanut butter on celery,</li>
+<li>Eat.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="worlds-easiest-salad-dressing"><a class="header" href="#worlds-easiest-salad-dressing">World's Easiest Salad Dressing</a></h1>
+<p>I'm not a big fan of most vinaigrette style salad dressings.  I think it's
+that I just don't like the taste.  I'm pretty happy with how I dress salads:</p>
+<blockquote>
+<p>Drizzle of olive oil and a crack of salt.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fantastic-ingredients--where-to-find-them"><a class="header" href="#fantastic-ingredients--where-to-find-them">Fantastic Ingredients &amp; Where To Find Them</a></h1>
+<p>Sometimes you don't need a full recipe to make great food, just knowing one
+show stopping ingredient that can revolutionise a meal.</p>
+<p>Here are some of the ingredients that have blown me away, either on their own
+or when they turn up somewhere unexpected.</p>
+<h2 id="tamarind"><a class="header" href="#tamarind">Tamarind</a></h2>
+<p>I'd never heard of tamarind until I was working through a cookbook in order of
+country of origin and found it featured heavily in Afghan dishes.  It was a big
+book.  Didn't get beyond &quot;B&quot; to be honest. Turns out when a country features
+heavily in the book you get a week of eating the same thing.  One of the
+countries beginning with &quot;A&quot; was heavy on the stews and casseroles.  I don't
+like stew.</p>
+<p>But anyway tamarind... It's got a wonderfully mellow sweet and savoury flavour.
+On on the Afghan dishes was simply potatoes cooked in tamarind sauce made by
+frying some onions then adding stock, spices, &amp; tamarind paste.</p>
+<p>Tamarind paste is a great addition to curries or sauces that can add an
+unexpected twist.</p>
+<p>Idea: tamarind paste added to pie filling?</p>
+<p>Where to find it: after searching high and low in every organic shop in
+Islington I eventually resorted to ordering this online.  A week later I found
+it in Sainsbury's.</p>
+<h2 id="celery---the-flavour-stabilizer"><a class="header" href="#celery---the-flavour-stabilizer">Celery - The Flavour Stabilizer</a></h2>
+<p>You'll notice a common ingredient of vegetable soups is almost always celery.
+I'd always considered celery as this &quot;nothing ingredient&quot; that didn't add
+anything.</p>
+<p>But now I've found I'm adding celery to more and more.  It doesn't have much of
+a distinct flavour on it's own but added to soup, stew, or even stir fry, it
+adds a freshness and helps meld the other flavours into each other, taking away
+the sharp edges. I've now always got some celery knocking around in my fridge.
+A staple.</p>
+<h2 id="silken-tofu"><a class="header" href="#silken-tofu">Silken Tofu</a></h2>
+<p>&quot;Tofu is horrible&quot;.  I'm with you on that for plain old regular tofu you get.
+Regular tofu is like boiled chicken.  It needs the flavour adding to it.
+Which, to be fair, if you consider the effort that goes into seasoning meat, if
+the same level of devotion went into seasoning tofu it would probably be
+alright. There are some really great tofus you can get where the seasoning has
+already been done.  There's this extra firm smoked tofu I get that's perfect in
+a breakfast bap.  I fry slices of it up with some mushrooms them pop them in a
+toasted pitta with sriracha.</p>
+<p>Anyway, silken tofu.  It's a completely different beast than regular tofu.  It
+disintegrates in your fingers and has a real creamy and smooth texture.  It's
+great for thickening up sauces and curries, and adds a great texture.  I once
+made these deep fried dumplings filled with silken tofu, leek and spices.  They
+were great, but trying to deep fry something in a pan on your hob can get
+pretty hairy. I heated the oil up too hot and when I put the first dumpling it
+it was like dropping potassium in water!</p>
+<h2 id="smoked-garlic"><a class="header" href="#smoked-garlic">Smoked Garlic</a></h2>
+<p>I don't know how I've gone through life, not discovering this was a thing until
+quite recently.  It's like the two best flavours rolled into one.  Highly
+recommend.</p>
+<p>The smoking process leaves them a bit squidgy compared with a regular garlic
+clove, so don't think it's gone off or anything.</p>
+<h2 id="truffle-oil"><a class="header" href="#truffle-oil">Truffle Oil</a></h2>
+<p>If you see truffle oil crisps in a shop: buy them, eat them. They are possibly
+the tastiest thing on the planet.</p>
+<p>Truffle oil is fantastic on roast potatoes, and anywhere else you want to
+infuse the flavour with the nectar of the gods.</p>
+<p>It is a very strong flavour mind.  Anything it is added to is then forever know
+by the prefix &quot;truffle oil&quot;.</p>
+<h2 id="lemongrass"><a class="header" href="#lemongrass">Lemongrass</a></h2>
+<p>I don't really know what the flavour of lemongrass is.  But I do know when I
+add it to things, it makes them taste great.  I wish I could be more precise
+about what it's good for, but I don't really know.  Try putting it on
+everything I guess.</p>
+<h2 id="carrot-tops"><a class="header" href="#carrot-tops">Carrot Tops</a></h2>
+<p>These get cut off the carrots that get sold to you in the supermarkets.  But
+IRL, carrots come with these big green things popping out the top of them...
+And they're edible and they're delicious.</p>
+<p>I've come across them recently by getting carrots via a local growers' veg
+delivery service.  They're great in salads, as a garnish, or anywhere else that
+you might put fresh herbs.</p>
+<p>You can use them as a base for homemade pesto, blending them up with other
+fresh herbs, some nuts, salt, and lots of olive oil.</p>
+<h2 id="frozen-ginger"><a class="header" href="#frozen-ginger">Frozen Ginger</a></h2>
+<p>I never get through a whole ginger root before it starts to go mouldy. Once the
+root has stopped being nice and fresh: cut it into cubes and freeze it.</p>
+<h2 id="soy-sauce-on-pizza"><a class="header" href="#soy-sauce-on-pizza">Soy Sauce on Pizza</a></h2>
+<p>Wat? I shit you not.  This takes pizza into the next dimension.  Don't believe
+me?  Try it on a slice.</p>
+<h2 id="tabasco-on-pastry"><a class="header" href="#tabasco-on-pastry">Tabasco on Pastry</a></h2>
+<p>Tabasco rears its head in all sorts of weird places: in drinks, on oysters, and
+here's another one: on savoury pastry.</p>
+<p>Once you've dripped Tabasco down the back of a sausage roll you'll never look
+back.</p>
+<h2 id="oyster-mushrooms"><a class="header" href="#oyster-mushrooms">Oyster Mushrooms</a></h2>
+<p>There's as many mushrooms in the world as there are people... or something like
+that.  Anyway, of all the mushrooms you can find, oyster mushrooms are among
+the best.  They've got a real tough texture and a strong flavour.</p>
+<p>In general I'd say wherever you might use regular old closed cup button
+mushrooms, try using oyster mushrooms instead.</p>
+<p>A great way to eat them is to batter them with panko breadcrumbs and cook them
+in the oven, then have a hoisin sauce or soy sauce to dip them in.</p>
+<p>More generally, you can get packs of &quot;wild mushrooms&quot; with all sorts of exotic
+mushrooms in.  Substituting regular old mushrooms for these fancy once can
+bring a whole new world of flavour to your dishes.</p>
+<h2 id="freekeh"><a class="header" href="#freekeh">Freekeh</a></h2>
+<p>So quinoa was a revolution.  Back in the days when it was pronounced
+&quot;quinn-oh-ah&quot; by the middle class mums idling down Waitrose isles.  Later we
+find out a surge in demand in the developed world has caused a scarcity for
+those who depended on it as a staple food.</p>
+<p>Freekeh is in that revolutionary stage.  We probably all pronounce it wrong,
+and some point later we'll hear about the problems our sudden increase in
+demand for a food that's been an eastern Mediterranean staple for millennia.
+But for now we can go to a fancy store and pay a ridiculous price for a tiny
+amount of it and revel in the fact we're eating the grain that the most in
+vogue.</p>
+<p>It is bloody delicious though.  Well worth a try.  Prepare it with a few
+tomatoes, celery, peppers, feta cheese (or alternative), with a healthy amount
+of olive oil poured over and you've got yourself a pretty sound meal.</p>
+<h2 id="pearl-barley"><a class="header" href="#pearl-barley">Pearl Barley</a></h2>
+<p>If you don't care about following the latest trends.  If you want a hearty
+grain that's packed full of flavour. Look no further than pearl barley.</p>
+<p>If you're looking to cut down on pasta, as it can be quite bloating, replace
+the pasta in any pasta dish with pearl barley.  Pearl barley bolognese!</p>
+<p>It's also a great bed to serve your protein on.  And a fantastic base for a
+salad.</p>
+<p>It can really pack a punch when added to winter stews and casseroles.</p>
+<p>I've been know to eat it on its own.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="acknowlegements"><a class="header" href="#acknowlegements">Acknowlegements</a></h1>
+<p>I'd like to thank my girlfriend Chantal for first introducing me to the <a href="./bean-pie.html">random
+bean pie</a> and <a href="./courgette-avo.html">courgetti-mole</a>, introducing <a href="./fantastic-ingredients.html#smoked-garlic">smoked garlic</a> and
+<a href="./fantastic-ingredients.html#freekeh">freekeh</a> into our cooking, and enduring many &quot;creations&quot; I've attempted
+over the last couple of years that are best left unshared.  Thank you Chantal.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="your-recipes"><a class="header" href="#your-recipes">Your Recipes</a></h1>
+<p>I'm interested to read about any plant-based recipes you have!</p>
+<p>If you want to recreate a book like this, I've written <a href="./do-this-yourself.html">a
+guide</a> on how to do that.</p>
+<p>I'm happy to link to anything you publish online from this book. <a href="https://github.com/tarquin-the-brave/not-a-v-word-cookbook/issues">Raise an
+issue</a> to let me know.</p>
+<p>Alternatively if you'd like to contribute to this book, you're more than
+welcome to! See the <a href="./contributions.html">contributing guide</a>. I'm keen for
+contributions of photos of recipes already in this book too!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="do-this-yourself"><a class="header" href="#do-this-yourself">Do This Yourself</a></h1>
+<h2 id="an-online-book"><a class="header" href="#an-online-book">An Online Book</a></h2>
+<p>Really this book is &quot;a website&quot;.  So if you're already well versed in creating
+websites you don't need this section, crack on doing what you do. For what it's
+worth this is the lowest faff way I've encountered to date of creating a
+website and the tools I've used have let me spend almost all of the developing
+time on content and an extremely minimal amount of time on formatting and such
+like. If you're keen to highly customise the formatting then other tools might
+be better suited to your desires.  If, like me, you're happy with how this
+looks and want to get something up and running fast: here's how you can do
+that.</p>
+<p>Everything I've used is totally free to use.</p>
+<h3 id="command-line"><a class="header" href="#command-line">Command Line</a></h3>
+<p><strong>Before you start</strong>: Make sure you are comfortable running a program from
+your computer's &quot;command line&quot;.</p>
+<p>&quot;Command line&quot;: a.k.a: &quot;terminal&quot;, &quot;command prompt&quot;, is the little box that
+lets you type in commands to a computer.  On Windows, I think it's called
+&quot;command&quot;, or &quot;command prompt&quot;.  If you're not familiar with it, you may want
+to do a bit of googling for how the terminal works on your computer.  and
+practice running programs and moving files, etc.</p>
+<p>There are also online tutorials that you can find to help get the basics.</p>
+<h3 id="mdbook-and-markdown"><a class="header" href="#mdbook-and-markdown">Mdbook and Markdown</a></h3>
+<p><a href="https://rust-lang.github.io/mdBook/index.html"><code>mdbook</code></a> is the main technology I've used here. It's a command line
+tool that takes &quot;markdown&quot; documents and generates a book that you can see in
+your web browser. <a href="https://github.com/rust-lang/mdBook/releases">Here's the download page</a> to install it for the type
+of computer you have. Check out <a href="https://rust-lang.github.io/mdBook/index.html">the documentation</a> and have a play
+around with it.</p>
+<p><a href="https://learnxinyminutes.com/docs/markdown/">Markdown</a> is a lightweight syntax that deals with all the formating
+of a document, so you don't have to.  Don't worry, you're not learning a
+programming language here.  There's very little to it, I promise.</p>
+<p>Once you've installed <code>mdbook</code> and know how to run it, you can write up a few
+pages of your book and see it taking shape in your web browser with <code>mdbook watch -o</code>.</p>
+<h3 id="github-and-travis"><a class="header" href="#github-and-travis">Github and Travis</a></h3>
+<p>Once you've got a few pages, setup a <a href="https://github.com/">Github</a> account.  Github will
+store the files you create your book from and, when you're ready will host the
+website for you.</p>
+<p>Github is pretty good at providing instructions for how to use it.  If you're
+unfamiliar with <code>git</code>, it may be worth some searches online for how to do the
+specific things you want, like push your work to your Github.</p>
+<p>You'll want to create a Github &quot;repository&quot; for your cookbook.  Github will
+take you through the steps.</p>
+<p><code>mdbook</code> writes the files it generates to a folder called <code>book</code>.  As these are
+auto-generated, you won't need Github to look after them for you, and you can
+tell <code>git</code> to ignore them by adding a <code>.gitignore</code> file to you repository with
+the word <code>book</code> in it.  Feel free to <a href="https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.gitignore">copy mine</a>.</p>
+<p>When you're ready to publish you can setup your Github repository to
+automatically generate your website and publish it.  For this you can use
+<a href="https://travis-ci.org/">Travis CI</a>.  There's instructions <a href="https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github">here</a> for how to
+&quot;setup Travis with a Github account&quot;.</p>
+<p>Travis can be setup to run any kind of build of software, so needs configuring
+for this task.  I've done the work here already, so feel free to <a href="https://github.com/tarquin-the-brave/not-a-v-word-cookbook/blob/master/.travis.yml">copy
+mine</a>.</p>
+<p>Find the option in your Travis account web page to &quot;Add a repository&quot;, then the
+next time you &quot;push&quot; your files to your Github repository, a few minutes later,
+you'll be able to see your cookbook online at:</p>
+<pre><code class="language-text">your-github-name.github.io/your-cookbook-name/
+</code></pre>
+<p>(where <code>your-github-name</code> &amp; <code>your-cookbook-name</code> are replaced with their actual
+names)</p>
+<p>Hopefully this is enough information to get you started.  The documentation of
+these tools is all quite thorough, and their all used by enough people that you
+can generally search online &quot;How do I do X with this tool&quot;.  If not there's all
+sorts of friendly forums you can ask for help on like <a href="https://stackoverflow.com/">Stack Overflow</a>.</p>
+<p>If you manage OK with <code>mdbook</code> and would like to have more control over
+customising your theme, I can recommend <a href="https://gohugo.io/">Hugo</a>.  It's a tool for building
+websites that's only a little bit more faff than <code>mdbook</code> (but you can do a lot
+more with it), and has a huge community of people developing and maintaining
+all sorts of themes.  So you don't even have to make your own theme, you can
+pick one from the hundreds already available.</p>
+<h2 id="an-actual-real-physical-book"><a class="header" href="#an-actual-real-physical-book">An Actual Real Physical Book</a></h2>
+<p>Before publishing this book online, I made a physical copy of this book by hand
+as a present for a couple of friends who got married.  Here's roughly what I
+did.</p>
+<p>I used <a href="https://pandoc.org/">Pandoc</a>, a tool for converting documents between formats, to
+convert these markdown files into a single <code>odt</code> format file that can be read
+by <a href="https://www.libreoffice.org/">Libre Office</a> (the free version of Microsoft office).  I don't know if
+Microsoft Word can read <code>odt</code> format.  If not Pandoc can always convert to
+<code>docx</code> format instead.</p>
+<p>Once open in Libre Office I selected all the text, picked a font, size, and
+line formatting and set that for the whole of the document.</p>
+<p>I then went through and formatted the section headings and made sure each new
+recipe started on a new page. The book was ready to print.</p>
+<p>I found two great tutorials by this Youtuber called &quot;Sea Lemon&quot; for how to bind
+a book by hand online:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=9O4kFTOEh6k">DIY Kettle Stitch Bookbinding Tutorial</a></li>
+<li><a href="https://www.youtube.com/watch?v=Av_rU-yOPd4">DIY Hardcover Book</a></li>
+</ul>
+<p>Sea Lemon has loads of tutorials on book binding and crafts.  Check out their
+other videos for alternative approaches.</p>
+<p>I then had to work out how to print the right pages on the right sides of the
+right pieces of paper to create the &quot;signatures&quot; of pages that get sticked
+together.  I did this by folding some normal printer paper, arranging them into
+signatures, and writing the page numbers on.</p>
+<p>I also found that the print we have at home wasn't printing &quot;two pages per
+side&quot; centrally on the page, leaving a large blank space to the right. failing
+to see how to amend this, I resorted to measuring the discrepancy and trimming
+the pages down with a ruler and a scalpel (a guillotine would have been better
+for this, I just didn't have one).</p>
+<p>All credit to Sea Lemon for helping me to produce the physical book!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contributions"><a class="header" href="#contributions">Contributions</a></h1>
+<p>Thus far this book has only be written by me, but I'm happy to take
+contributions.</p>
+<p>Purely because I haven't got round to looking into this properly yet, the
+<a href="./copyright.html">copyright statement</a> has &quot;All Rights Reserved&quot;.  I expect I'll select one
+of the &quot;Creative Commons&quot; licenses to use, and ensure contributions are
+properly attributed.</p>
+<p>The source of this book is <a href="https://github.com/tarquin-the-brave/not-a-v-word-cookbook">mastered in Github</a>.</p>
+<p>Please do get in contact by <a href="https://github.com/tarquin-the-brave/not-a-v-word-cookbook/issues">raising an issue</a> if you like to contribute.</p>
+<h1 id="photography"><a class="header" href="#photography">Photography</a></h1>
+<p>You'll notice this book has no photos in it.  That's not a design choice, it's
+just that every time I try to take a photo of food it looks like a turd on a
+plate.</p>
+<p>If you're good at taking photos of food, and have taken some pictures of
+recipes you've created from this book, please do get in touch, as I'd love this
+book to include photos!</p>
+<h1 id="contributing-guidance"><a class="header" href="#contributing-guidance">Contributing Guidance</a></h1>
+<p>I'd like any contribution to this book to be in keeping with the mission of the
+book and have some continuity of style.</p>
+<p>If this style doesn't float your boat, I'd be happy to link to something
+you post online written in your own style.  Let me know and I'll add an
+&quot;Other Such Works&quot; chapter.</p>
+<h2 id="mission"><a class="header" href="#mission">Mission</a></h2>
+<p>As <a href="./introduction">the introduction</a> states, this book isn't about
+v****ism.  And it's not written to try to preach or convert.  This book is
+about enriching and deepening people's experience of food with plants.</p>
+<p>There's an industrial pipeline to food productions that favours less diversity.
+When I used to eat what the television told me to, I had a pretty limited set
+of foods I would eat regularly.  While not entirely leaving the system,
+v****s move out of the main firing line for this pipeline and end up coming
+across novel ingredients and combinations.  It's these I want to share back
+with people so they remember us as the ones who gave them some delicious food,
+rather than the ones who made them feel bad about the food they were eating.</p>
+<p>As such this book steers clear from including v**** alternatives to meat
+dishes.  The focus is on sharing wonderful combinations that happen to only
+have plants in which readers can add to their cooking, adding in what they
+like.</p>
+<h2 id="style"><a class="header" href="#style">Style</a></h2>
+<p>Recipe write ups in this book follow a format of: don't list ingredients, don't
+be precise about sizes (unless it matters), distill the core of the recipe
+before discussing extra non-essential add ons, and provide a TL;DR at the end
+for quick reference.</p>
+<p>Contributions don't have to follow this exact format, but it would be good if
+they achieved the same goals of showing the recipe in its minimal form, being
+explicit about what's optional, and having a quick reference.  Basically not
+reading like a standard cookbook in the way described in the
+<a href="./preface.html">preface</a>.  Specifics can be discussed over a pull request.</p>
+<div style="break-before: page; page-break-before: always;"></div><div align="center">©2020 Tom Steavenson. All Rights Reserved.</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>

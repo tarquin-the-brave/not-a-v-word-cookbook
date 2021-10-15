@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Fantastic Ingredients - Not A V**** Cookbook</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="preface.html">Preface</a></li><li class="chapter-item expanded affix "><a href="this-book.html">This Book</a></li><li class="chapter-item expanded "><a href="some-food.html"><strong aria-hidden="true">1.</strong> Some Food</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sticky-umami-pineapple.html"><strong aria-hidden="true">1.1.</strong> Sticky Umami Protein &amp; Pineapple</a></li><li class="chapter-item expanded "><a href="watermelon-steaks.html"><strong aria-hidden="true">1.2.</strong> Watermelon Steaks</a></li><li class="chapter-item expanded "><a href="mung-sandwich.html"><strong aria-hidden="true">1.3.</strong> Mung Bean &amp; Lentil Sandwich Filler</a></li><li class="chapter-item expanded "><a href="cauliflower-pasta.html"><strong aria-hidden="true">1.4.</strong> Roasted Cauliflower Pasta</a></li><li class="chapter-item expanded "><a href="courgette-avo.html"><strong aria-hidden="true">1.5.</strong> Courgetti-Mole</a></li><li class="chapter-item expanded "><a href="toms-stir-fry.html"><strong aria-hidden="true">1.6.</strong> Tom's Stir Fry</a></li><li class="chapter-item expanded "><a href="pitta-pizza.html"><strong aria-hidden="true">1.7.</strong> Pitta Pizzas</a></li><li class="chapter-item expanded "><a href="mushroom-orange.html"><strong aria-hidden="true">1.8.</strong> Portobello Mushroom &amp; Orange</a></li><li class="chapter-item expanded "><a href="miso-aubergine.html"><strong aria-hidden="true">1.9.</strong> Miso Aubergine</a></li><li class="chapter-item expanded "><a href="bean-pie.html"><strong aria-hidden="true">1.10.</strong> Bean Pie</a></li><li class="chapter-item expanded "><a href="kale-peanut-sauce.html"><strong aria-hidden="true">1.11.</strong> Kale in Peanut Sauce</a></li><li class="chapter-item expanded "><a href="fava-arrabiata.html"><strong aria-hidden="true">1.12.</strong> Fava Bean Arrabiata</a></li><li class="chapter-item expanded "><a href="bang-cauliflower.html"><strong aria-hidden="true">1.13.</strong> Bang Bang Bang Bang Cauliflower</a></li></ol></li><li class="chapter-item expanded "><a href="other-recommendations.html"><strong aria-hidden="true">2.</strong> Other Recommendations</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="coconut-greens.html"><strong aria-hidden="true">2.1.</strong> Coconut Greens</a></li><li class="chapter-item expanded "><a href="quinoa-granola.html"><strong aria-hidden="true">2.2.</strong> Quinoa In Granola</a></li><li class="chapter-item expanded "><a href="raw-food-dinner.html"><strong aria-hidden="true">2.3.</strong> Raw Food Dinners</a></li><li class="chapter-item expanded "><a href="fruit-in-curry.html"><strong aria-hidden="true">2.4.</strong> Put Fruit In Curries</a></li><li class="chapter-item expanded "><a href="celery-peanut.html"><strong aria-hidden="true">2.5.</strong> Celery &amp; Peanut Butter</a></li><li class="chapter-item expanded "><a href="easy-salad-dressing.html"><strong aria-hidden="true">2.6.</strong> World's Easiest Salad Dressing</a></li></ol></li><li class="chapter-item expanded "><a href="fantastic-ingredients.html" class="active"><strong aria-hidden="true">3.</strong> Fantastic Ingredients</a></li><li class="chapter-item expanded affix "><a href="acknowlegements.html">Acknowledgements</a></li><li class="chapter-item expanded affix "><a href="your-recipes.html">Your Recipes</a></li><li class="chapter-item expanded affix "><a href="do-this-yourself.html">Do This Yourself</a></li><li class="chapter-item expanded affix "><a href="contributions.html">Contributing</a></li><li class="chapter-item expanded affix "><a href="copyright.html">COPYRIGHT</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Not A V**** Cookbook</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="fantastic-ingredients--where-to-find-them"><a class="header" href="#fantastic-ingredients--where-to-find-them">Fantastic Ingredients &amp; Where To Find Them</a></h1>
+<p>Sometimes you don't need a full recipe to make great food, just knowing one
+show stopping ingredient that can revolutionise a meal.</p>
+<p>Here are some of the ingredients that have blown me away, either on their own
+or when they turn up somewhere unexpected.</p>
+<h2 id="tamarind"><a class="header" href="#tamarind">Tamarind</a></h2>
+<p>I'd never heard of tamarind until I was working through a cookbook in order of
+country of origin and found it featured heavily in Afghan dishes.  It was a big
+book.  Didn't get beyond &quot;B&quot; to be honest. Turns out when a country features
+heavily in the book you get a week of eating the same thing.  One of the
+countries beginning with &quot;A&quot; was heavy on the stews and casseroles.  I don't
+like stew.</p>
+<p>But anyway tamarind... It's got a wonderfully mellow sweet and savoury flavour.
+On on the Afghan dishes was simply potatoes cooked in tamarind sauce made by
+frying some onions then adding stock, spices, &amp; tamarind paste.</p>
+<p>Tamarind paste is a great addition to curries or sauces that can add an
+unexpected twist.</p>
+<p>Idea: tamarind paste added to pie filling?</p>
+<p>Where to find it: after searching high and low in every organic shop in
+Islington I eventually resorted to ordering this online.  A week later I found
+it in Sainsbury's.</p>
+<h2 id="celery---the-flavour-stabilizer"><a class="header" href="#celery---the-flavour-stabilizer">Celery - The Flavour Stabilizer</a></h2>
+<p>You'll notice a common ingredient of vegetable soups is almost always celery.
+I'd always considered celery as this &quot;nothing ingredient&quot; that didn't add
+anything.</p>
+<p>But now I've found I'm adding celery to more and more.  It doesn't have much of
+a distinct flavour on it's own but added to soup, stew, or even stir fry, it
+adds a freshness and helps meld the other flavours into each other, taking away
+the sharp edges. I've now always got some celery knocking around in my fridge.
+A staple.</p>
+<h2 id="silken-tofu"><a class="header" href="#silken-tofu">Silken Tofu</a></h2>
+<p>&quot;Tofu is horrible&quot;.  I'm with you on that for plain old regular tofu you get.
+Regular tofu is like boiled chicken.  It needs the flavour adding to it.
+Which, to be fair, if you consider the effort that goes into seasoning meat, if
+the same level of devotion went into seasoning tofu it would probably be
+alright. There are some really great tofus you can get where the seasoning has
+already been done.  There's this extra firm smoked tofu I get that's perfect in
+a breakfast bap.  I fry slices of it up with some mushrooms them pop them in a
+toasted pitta with sriracha.</p>
+<p>Anyway, silken tofu.  It's a completely different beast than regular tofu.  It
+disintegrates in your fingers and has a real creamy and smooth texture.  It's
+great for thickening up sauces and curries, and adds a great texture.  I once
+made these deep fried dumplings filled with silken tofu, leek and spices.  They
+were great, but trying to deep fry something in a pan on your hob can get
+pretty hairy. I heated the oil up too hot and when I put the first dumpling it
+it was like dropping potassium in water!</p>
+<h2 id="smoked-garlic"><a class="header" href="#smoked-garlic">Smoked Garlic</a></h2>
+<p>I don't know how I've gone through life, not discovering this was a thing until
+quite recently.  It's like the two best flavours rolled into one.  Highly
+recommend.</p>
+<p>The smoking process leaves them a bit squidgy compared with a regular garlic
+clove, so don't think it's gone off or anything.</p>
+<h2 id="truffle-oil"><a class="header" href="#truffle-oil">Truffle Oil</a></h2>
+<p>If you see truffle oil crisps in a shop: buy them, eat them. They are possibly
+the tastiest thing on the planet.</p>
+<p>Truffle oil is fantastic on roast potatoes, and anywhere else you want to
+infuse the flavour with the nectar of the gods.</p>
+<p>It is a very strong flavour mind.  Anything it is added to is then forever know
+by the prefix &quot;truffle oil&quot;.</p>
+<h2 id="lemongrass"><a class="header" href="#lemongrass">Lemongrass</a></h2>
+<p>I don't really know what the flavour of lemongrass is.  But I do know when I
+add it to things, it makes them taste great.  I wish I could be more precise
+about what it's good for, but I don't really know.  Try putting it on
+everything I guess.</p>
+<h2 id="carrot-tops"><a class="header" href="#carrot-tops">Carrot Tops</a></h2>
+<p>These get cut off the carrots that get sold to you in the supermarkets.  But
+IRL, carrots come with these big green things popping out the top of them...
+And they're edible and they're delicious.</p>
+<p>I've come across them recently by getting carrots via a local growers' veg
+delivery service.  They're great in salads, as a garnish, or anywhere else that
+you might put fresh herbs.</p>
+<p>You can use them as a base for homemade pesto, blending them up with other
+fresh herbs, some nuts, salt, and lots of olive oil.</p>
+<h2 id="frozen-ginger"><a class="header" href="#frozen-ginger">Frozen Ginger</a></h2>
+<p>I never get through a whole ginger root before it starts to go mouldy. Once the
+root has stopped being nice and fresh: cut it into cubes and freeze it.</p>
+<h2 id="soy-sauce-on-pizza"><a class="header" href="#soy-sauce-on-pizza">Soy Sauce on Pizza</a></h2>
+<p>Wat? I shit you not.  This takes pizza into the next dimension.  Don't believe
+me?  Try it on a slice.</p>
+<h2 id="tabasco-on-pastry"><a class="header" href="#tabasco-on-pastry">Tabasco on Pastry</a></h2>
+<p>Tabasco rears its head in all sorts of weird places: in drinks, on oysters, and
+here's another one: on savoury pastry.</p>
+<p>Once you've dripped Tabasco down the back of a sausage roll you'll never look
+back.</p>
+<h2 id="oyster-mushrooms"><a class="header" href="#oyster-mushrooms">Oyster Mushrooms</a></h2>
+<p>There's as many mushrooms in the world as there are people... or something like
+that.  Anyway, of all the mushrooms you can find, oyster mushrooms are among
+the best.  They've got a real tough texture and a strong flavour.</p>
+<p>In general I'd say wherever you might use regular old closed cup button
+mushrooms, try using oyster mushrooms instead.</p>
+<p>A great way to eat them is to batter them with panko breadcrumbs and cook them
+in the oven, then have a hoisin sauce or soy sauce to dip them in.</p>
+<p>More generally, you can get packs of &quot;wild mushrooms&quot; with all sorts of exotic
+mushrooms in.  Substituting regular old mushrooms for these fancy once can
+bring a whole new world of flavour to your dishes.</p>
+<h2 id="freekeh"><a class="header" href="#freekeh">Freekeh</a></h2>
+<p>So quinoa was a revolution.  Back in the days when it was pronounced
+&quot;quinn-oh-ah&quot; by the middle class mums idling down Waitrose isles.  Later we
+find out a surge in demand in the developed world has caused a scarcity for
+those who depended on it as a staple food.</p>
+<p>Freekeh is in that revolutionary stage.  We probably all pronounce it wrong,
+and some point later we'll hear about the problems our sudden increase in
+demand for a food that's been an eastern Mediterranean staple for millennia.
+But for now we can go to a fancy store and pay a ridiculous price for a tiny
+amount of it and revel in the fact we're eating the grain that the most in
+vogue.</p>
+<p>It is bloody delicious though.  Well worth a try.  Prepare it with a few
+tomatoes, celery, peppers, feta cheese (or alternative), with a healthy amount
+of olive oil poured over and you've got yourself a pretty sound meal.</p>
+<h2 id="pearl-barley"><a class="header" href="#pearl-barley">Pearl Barley</a></h2>
+<p>If you don't care about following the latest trends.  If you want a hearty
+grain that's packed full of flavour. Look no further than pearl barley.</p>
+<p>If you're looking to cut down on pasta, as it can be quite bloating, replace
+the pasta in any pasta dish with pearl barley.  Pearl barley bolognese!</p>
+<p>It's also a great bed to serve your protein on.  And a fantastic base for a
+salad.</p>
+<p>It can really pack a punch when added to winter stews and casseroles.</p>
+<p>I've been know to eat it on its own.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="easy-salad-dressing.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="acknowlegements.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="easy-salad-dressing.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="acknowlegements.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
