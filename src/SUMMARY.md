@@ -19,6 +19,7 @@
   + [Bean Pie](./bean-pie.md)
   + [Kale in Peanut Sauce](./kale-peanut-sauce.md)
   + [Fava Bean Arrabiata](./fava-arrabiata.md)
+  + [Bang Bang Bang Bang Cauliflower](./bang-cauliflower.md)
 
 - [Other Recommendations](./other-recommendations.md)
   + [Coconut Greens](./coconut-greens.md)
